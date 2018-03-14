@@ -263,28 +263,5 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="893856349189939" title="Projetos">
-            <sub-events>
-                <event-block sid="995471348765587">
-                    <conditions>
-                        <condition id="-2" name="On start of layout" sid="912864511950991" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Set text" sid="863110885921000" type="QuantiaMetal">
-                            <param id="0" name="Text">Metal_Total</param>
-                        </action>
-                        <action id="0" name="Set text" sid="603111146087309" type="QuantiaPapel">
-                            <param id="0" name="Text">Papel_Total</param>
-                        </action>
-                        <action id="0" name="Set text" sid="756972267041860" type="QuantiaPlastico">
-                            <param id="0" name="Text">Plástico_Total</param>
-                        </action>
-                        <action id="0" name="Set text" sid="709818065191682" type="QuantiaVidro">
-                            <param id="0" name="Text">Vidro_Total</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
     </events>
 </c2eventsheet>

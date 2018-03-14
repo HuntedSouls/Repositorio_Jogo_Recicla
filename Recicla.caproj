@@ -8,10 +8,12 @@
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>1yufxrknvjj16</unique-id>
-    <saved-with-version>24800</saved-with-version>
+    <saved-with-version>25500</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -280,6 +282,20 @@
         <object-type name="Concluir_Projetos" sid="158940452149906">
             <plugin id="Button" />
         </object-type>
+        <object-type name="Mouse" sid="687186569517123">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="carta1" sid="193811974064320">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="486440277325338" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Swap" sid="277834697773335">
+            <plugin id="Function" />
+        </object-type>
     </object-folder>
     <families>
         <family name="Caçambas" plugin-id="Sprite" sid="316778183460846">
@@ -315,6 +331,11 @@
                 <member>QuantiaVidro</member>
             </members>
         </family>
+        <family name="Recicláveis" plugin-id="Sprite" sid="914956240337037">
+            <members>
+                <member>carta1</member>
+            </members>
+        </family>
     </families>
     <layout-folder>
         <layout>Coleta.xml</layout>
@@ -323,8 +344,13 @@
     </layout-folder>
     <event-folder>
         <event-sheet>MainEvents.xml</event-sheet>
+        <event-sheet>ProjetosEvents.xml</event-sheet>
+        <event-sheet>Função.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="Mouse" uid="24" />
+        <global-instance type="Swap" uid="25" />
+    </global-instances>
     <sounds-folder />
     <music-folder />
     <files-folder>

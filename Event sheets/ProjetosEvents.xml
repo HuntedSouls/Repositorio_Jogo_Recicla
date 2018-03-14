@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ProjetosEvents</name>
+    <events>
+        <include>MainEvents</include>
+        <event-group description="" sid="220733936568467" title="Projetos">
+            <sub-events>
+                <event-block sid="159398580876390">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="702745724755858" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="860014653290811" type="QuantiaMetal">
+                            <param id="0" name="Text">Metal_Total</param>
+                        </action>
+                        <action id="0" name="Set text" sid="994696062036581" type="QuantiaPapel">
+                            <param id="0" name="Text">Papel_Total</param>
+                        </action>
+                        <action id="0" name="Set text" sid="558101269252142" type="QuantiaPlastico">
+                            <param id="0" name="Text">Plástico_Total</param>
+                        </action>
+                        <action id="0" name="Set text" sid="310171772319797" type="QuantiaVidro">
+                            <param id="0" name="Text">Vidro_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="385019120742151">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="354856556651253" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Recicláveis</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
