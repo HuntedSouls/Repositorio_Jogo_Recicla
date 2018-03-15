@@ -4,38 +4,384 @@
     <name>ProjetosEvents</name>
     <events>
         <include>MainEvents</include>
-        <event-group description="" sid="220733936568467" title="Projetos">
-            <sub-events>
-                <event-block sid="159398580876390">
-                    <conditions>
-                        <condition id="-2" name="On start of layout" sid="702745724755858" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Set text" sid="860014653290811" type="QuantiaMetal">
-                            <param id="0" name="Text">Metal_Total</param>
-                        </action>
-                        <action id="0" name="Set text" sid="994696062036581" type="QuantiaPapel">
-                            <param id="0" name="Text">Papel_Total</param>
-                        </action>
-                        <action id="0" name="Set text" sid="558101269252142" type="QuantiaPlastico">
-                            <param id="0" name="Text">Plástico_Total</param>
-                        </action>
-                        <action id="0" name="Set text" sid="310171772319797" type="QuantiaVidro">
-                            <param id="0" name="Text">Vidro_Total</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
+        <event-block sid="159398580876390">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="702745724755858" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="860014653290811" type="QuantiaMetal">
+                    <param id="0" name="Text">Metal_Total</param>
+                </action>
+                <action id="0" name="Set text" sid="994696062036581" type="QuantiaPapel">
+                    <param id="0" name="Text">Papel_Total</param>
+                </action>
+                <action id="0" name="Set text" sid="558101269252142" type="QuantiaPlastico">
+                    <param id="0" name="Text">Plástico_Total</param>
+                </action>
+                <action id="0" name="Set text" sid="310171772319797" type="QuantiaVidro">
+                    <param id="0" name="Text">Vidro_Total</param>
+                </action>
+                <action id="1" name="Append text" sid="492840674632677" type="LixoAcumulado">
+                    <param id="0" name="Text">Sujeira_Total</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="385019120742151">
             <conditions>
                 <condition id="6" name="On object clicked" sid="354856556651253" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Recicláveis</param>
+                    <param id="2" name="Object clicked">Reciclaveis</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="778763438272494" type="Function">
+                    <param id="0" name="Name">&quot;Swap&quot;</param>
+                    <param id="1" name="Parameter {n}">Reciclaveis.De{###}Reciclaveis.Para</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="284891803784014">
+            <conditions>
+                <condition id="0" name="On function" sid="119908591312225" type="Function">
+                    <param id="0" name="Name">&quot;Swap&quot;</param>
                 </condition>
             </conditions>
             <actions />
+            <sub-events>
+                <event-block sid="612230149610957">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="759288613241063" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="292891559957996" type="System">
+                            <param id="0" name="Variable">Metal_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="214159101356877" type="QuantiaMetal">
+                            <param id="0" name="Text">Metal_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="572276368306845">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="794031606474113" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="262104911061098" type="System">
+                            <param id="0" name="Variable">Papel_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="290122173401346" type="QuantiaPapel">
+                            <param id="0" name="Text">Papel_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="795135357278322">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="752760359811874" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="395163897949606" type="System">
+                            <param id="0" name="Variable">Plástico_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="769774967262806" type="QuantiaPlastico">
+                            <param id="0" name="Text">Plástico_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="901498343650729">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="642412963939953" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="855376744420221" type="System">
+                            <param id="0" name="Variable">Vidro_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="282588486836480" type="QuantiaVidro">
+                            <param id="0" name="Text">Vidro_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="293906043471822">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="312023933973727" type="Function">
+                            <param id="0" name="Index">1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="311076293117986" type="System">
+                            <param id="0" name="Variable">Metal_Total</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="151979820593349" type="QuantiaMetal">
+                            <param id="0" name="Text">Metal_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="138611248073419">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="964338947527660" type="Function">
+                            <param id="0" name="Index">1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="431272558196531" type="System">
+                            <param id="0" name="Variable">Papel_Total</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="399466794790825" type="QuantiaPapel">
+                            <param id="0" name="Text">Papel_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="309812012435326">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="209962536986684" type="Function">
+                            <param id="0" name="Index">1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="700687412194278" type="System">
+                            <param id="0" name="Variable">Plástico_Total</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="893353205408154" type="QuantiaPlastico">
+                            <param id="0" name="Text">Plástico_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="274181979799971">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="907913958623027" type="Function">
+                            <param id="0" name="Index">1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="816908248339012" type="System">
+                            <param id="0" name="Variable">Vidro_Total</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="405892748189547" type="QuantiaVidro">
+                            <param id="0" name="Text">Vidro_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="548680121468308">
+            <conditions>
+                <condition id="0" name="On function" sid="621362969638139" type="Function">
+                    <param id="0" name="Name">&quot;Swap12&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="532574488036515">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="400055768628344" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="894912197095051" type="System">
+                            <param id="0" name="Variable">Metal_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="124550313578036" type="QuantiaMetal">
+                            <param id="0" name="Text">Metal_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="872165717678447">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="444593300078643" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="796685467416063" type="System">
+                            <param id="0" name="Variable">Papel_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="233324366146615" type="QuantiaPapel">
+                            <param id="0" name="Text">Papel_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="375346691310463">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="690551136256313" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="677614972267208" type="System">
+                            <param id="0" name="Variable">Plástico_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="672665910916326" type="QuantiaPlastico">
+                            <param id="0" name="Text">Plástico_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="510873849628659">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="790032607370783" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="638355591236447" type="System">
+                            <param id="0" name="Variable">Vidro_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="596936420142448" type="QuantiaVidro">
+                            <param id="0" name="Text">Vidro_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="425655907317309">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="338191403319327" type="Function">
+                            <param id="0" name="Index">1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="448891581957347" type="System">
+                            <param id="0" name="Variable">Metal_Total</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="672619134803271" type="QuantiaMetal">
+                            <param id="0" name="Text">Metal_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="120904452273527">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="863181125675607" type="Function">
+                            <param id="0" name="Index">1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="887269065508654" type="System">
+                            <param id="0" name="Variable">Papel_Total</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="750748516402050" type="QuantiaPapel">
+                            <param id="0" name="Text">Papel_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="763807951648863">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="770540883466639" type="Function">
+                            <param id="0" name="Index">1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="742945823204559" type="System">
+                            <param id="0" name="Variable">Plástico_Total</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="306172444225147" type="QuantiaPlastico">
+                            <param id="0" name="Text">Plástico_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="718280903309981">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="754337293504254" type="Function">
+                            <param id="0" name="Index">1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="628700592989170" type="System">
+                            <param id="0" name="Variable">Vidro_Total</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="144339931041390" type="QuantiaVidro">
+                            <param id="0" name="Text">Vidro_Total</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="272000671940421">
+            <conditions>
+                <condition id="0" name="On clicked" sid="248473430561752" type="Concluir_Projetos" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="882526276223209" type="System">
+                    <param id="0" name="Variable">Sujeira_Total</param>
+                    <param id="1" name="Value">Metal_Total+Papel_Total+Plástico_Total+Vidro_Total</param>
+                </action>
+                <action id="-9" name="Set value" sid="461627634565589" type="System">
+                    <param id="0" name="Variable">Metal_Total</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="560054472039034" type="System">
+                    <param id="0" name="Variable">Papel_Total</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="122559272409252" type="System">
+                    <param id="0" name="Variable">Plástico_Total</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="355557573890692" type="System">
+                    <param id="0" name="Variable">Vidro_Total</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="588236412772254" type="System">
+                    <param id="0" name="Group name">&quot;Coleta&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="190364760822488" type="System">
+                    <param id="0" name="Layout">Coleta</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

@@ -15,9 +15,9 @@
                         <condition id="-2" name="On start of layout" sid="618223290835634" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-12" name="Set group active" sid="308288874591905" type="System">
-                            <param id="0" name="Group name">&quot;Projetos&quot;</param>
-                            <param id="1" name="State">0</param>
+                        <action id="-12" name="Set group active" sid="668740561566094" type="System">
+                            <param id="0" name="Group name">&quot;Coleta&quot;</param>
+                            <param id="1" name="State">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -247,10 +247,6 @@
                         <action id="-9" name="Set value" sid="263949960807645" type="System">
                             <param id="0" name="Variable">Sujeira_Total</param>
                             <param id="1" name="Value">Sujeira.SujeiraTotal</param>
-                        </action>
-                        <action id="-12" name="Set group active" sid="618078471170570" type="System">
-                            <param id="0" name="Group name">&quot;Projetos&quot;</param>
-                            <param id="1" name="State">1</param>
                         </action>
                         <action id="-25" name="Go to layout (by name)" sid="443249902056148" type="System">
                             <param id="0" name="Layout">&quot;Projetos&quot;</param>

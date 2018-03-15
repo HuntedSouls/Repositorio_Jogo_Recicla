@@ -2,7 +2,7 @@
 <c2layout>
     <name>Projetos</name>
     <sid>136247047832655</sid>
-    <event-sheet>MainEvents</event-sheet>
+    <event-sheet>ProjetosEvents</event-sheet>
     <size>
         <width>360</width>
         <height>480</height>
@@ -247,6 +247,59 @@
                         <y>56</y>
                         <z>0</z>
                         <width>43</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="carta1" uid="26">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <De>1</De>
+                        <Para>4</Para>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>179</x>
+                        <y>230</y>
+                        <z>0</z>
+                        <width>108</width>
+                        <height>139</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LixoAcumulado" uid="27">
+                    <properties>
+                        <text>LixoAcumulado:</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>6</x>
+                        <y>445</y>
+                        <z>0</z>
+                        <width>200</width>
                         <height>30</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
