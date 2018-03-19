@@ -355,6 +355,15 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <De>0</De>
+                        <Para>0</Para>
+                        <Construido>false</Construido>
+                        <CustoMetal>0</CustoMetal>
+                        <CustoPapel>0</CustoPapel>
+                        <CustoPlastico>0</CustoPlastico>
+                        <CustoVidro>0</CustoVidro>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -377,6 +386,15 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <De>0</De>
+                        <Para>0</Para>
+                        <Construido>false</Construido>
+                        <CustoMetal>0</CustoMetal>
+                        <CustoPapel>0</CustoPapel>
+                        <CustoPlastico>0</CustoPlastico>
+                        <CustoVidro>0</CustoVidro>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -399,6 +417,15 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <De>0</De>
+                        <Para>0</Para>
+                        <Construido>false</Construido>
+                        <CustoMetal>0</CustoMetal>
+                        <CustoPapel>0</CustoPapel>
+                        <CustoPlastico>0</CustoPlastico>
+                        <CustoVidro>0</CustoVidro>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -421,6 +448,15 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <De>0</De>
+                        <Para>0</Para>
+                        <Construido>false</Construido>
+                        <CustoMetal>0</CustoMetal>
+                        <CustoPapel>0</CustoPapel>
+                        <CustoPlastico>0</CustoPlastico>
+                        <CustoVidro>0</CustoVidro>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -446,6 +482,11 @@
                     <instance-variables>
                         <De>1</De>
                         <Para>4</Para>
+                        <Construido>false</Construido>
+                        <CustoMetal>0</CustoMetal>
+                        <CustoPapel>0</CustoPapel>
+                        <CustoPlastico>0</CustoPlastico>
+                        <CustoVidro>0</CustoVidro>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -472,6 +513,11 @@
                     <instance-variables>
                         <De>1</De>
                         <Para>4</Para>
+                        <Construido>false</Construido>
+                        <CustoMetal>0</CustoMetal>
+                        <CustoPapel>0</CustoPapel>
+                        <CustoPlastico>0</CustoPlastico>
+                        <CustoVidro>0</CustoVidro>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>

@@ -661,6 +661,11 @@
             <instance-variables>
                 <instance-variable comment="valor que reduz" name="De" sid="768884788982257" type="number" />
                 <instance-variable comment="valor que aumenta" name="Para" sid="354226323123335" type="number" />
+                <instance-variable comment="Indica se está construido" name="Construido" sid="178420037682957" type="boolean" />
+                <instance-variable comment="Indica o custo em Metal" name="CustoMetal" sid="892871776041799" type="number" />
+                <instance-variable comment="Indica o custo em Papel" name="CustoPapel" sid="797298217992479" type="number" />
+                <instance-variable comment="Indica o custo em Plastico" name="CustoPlastico" sid="285059882584716" type="number" />
+                <instance-variable comment="Indica o custo em Vidro" name="CustoVidro" sid="144687553716401" type="number" />
             </instance-variables>
         </family>
         <family name="Projetos" plugin-id="Sprite" sid="701263521895395">
@@ -670,6 +675,15 @@
                 <member>projeto_3</member>
                 <member>projeto_4</member>
             </members>
+            <instance-variables>
+                <instance-variable name="De" sid="610939325492841" type="number" />
+                <instance-variable name="Para" sid="151373097027824" type="number" />
+                <instance-variable comment="indica se esta construido" name="Construido" sid="542370295791702" type="boolean" />
+                <instance-variable comment=" Indica o custo em Metal" name="CustoMetal" sid="936334000366632" type="number" />
+                <instance-variable comment="Indica o custo em Papel" name="CustoPapel" sid="468214025443710" type="number" />
+                <instance-variable comment="Indica o custo em Plastico" name="CustoPlastico" sid="870086120027837" type="number" />
+                <instance-variable comment="Indica o custo em Vidro" name="CustoVidro" sid="543859146238424" type="number" />
+            </instance-variables>
         </family>
     </families>
     <layout-folder>
