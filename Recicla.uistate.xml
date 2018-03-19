@@ -27,23 +27,35 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="0" name="Lixos" />
         <family expanded="0" name="Quantias_Recursos" />
         <family expanded="1" name="Reciclaveis" />
+        <family expanded="0" name="Projetos" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="object-folder/Reciclaveis/" />
-        <folder expanded="1" path="object-folder/caçambas/" />
-        <folder expanded="1" path="object-folder/lixinhos/" />
+        <folder expanded="0" path="object-folder/caçambas/" />
+        <folder expanded="0" path="object-folder/lixinhos/" />
         <folder expanded="1" path="object-folder/othervisual/" />
-        <folder expanded="1" path="object-folder/System/" />
-        <folder expanded="1" path="object-folder/TExts/" />
-        <folder expanded="1" path="object-folder/Projetos/" />
+        <folder expanded="0" path="object-folder/System/" />
+        <folder expanded="0" path="object-folder/TExts/" />
+        <folder expanded="0" path="object-folder/Projetos/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="file-folder/" />
+        <folder expanded="0" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
-        <folder expanded="1" path="animation-folder/carta1/" />
+        <folder expanded="1" path="animation-folder/rec_carta_01/" />
+        <folder expanded="1" path="animation-folder/rec_carta_02/" />
+        <folder expanded="1" path="animation-folder/rec_carta_03/" />
+        <folder expanded="1" path="animation-folder/rec_carta_04/" />
+        <folder expanded="1" path="animation-folder/rec_carta_05/" />
+        <folder expanded="1" path="animation-folder/rec_carta_06/" />
+        <folder expanded="1" path="animation-folder/rec_carta_07/" />
+        <folder expanded="1" path="animation-folder/rec_carta_08/" />
+        <folder expanded="1" path="animation-folder/rec_carta_09/" />
+        <folder expanded="1" path="animation-folder/rec_carta_10/" />
+        <folder expanded="1" path="animation-folder/rec_carta_11/" />
+        <folder expanded="1" path="animation-folder/rec_carta_12/" />
         <folder expanded="1" path="animation-folder/Caçamba_Metal/" />
         <folder expanded="1" path="animation-folder/Caçamba_Papel/" />
         <folder expanded="1" path="animation-folder/Caçamba_Vidro/" />
@@ -54,5 +66,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Plastico/" />
         <folder expanded="1" path="animation-folder/Vidro/" />
         <folder expanded="1" path="animation-folder/SujeiraAcumulada/" />
+        <folder expanded="1" path="animation-folder/BackgroundProjetos/" />
+        <folder expanded="1" path="animation-folder/botao_concluir/" />
+        <folder expanded="1" path="animation-folder/projeto_1/" />
+        <folder expanded="1" path="animation-folder/projeto_2/" />
+        <folder expanded="1" path="animation-folder/projeto_3/" />
+        <folder expanded="1" path="animation-folder/projeto_4/" />
     </folders-expanded>
 </c2uistate>

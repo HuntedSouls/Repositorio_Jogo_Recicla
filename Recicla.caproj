@@ -50,11 +50,198 @@
     </configuration-settings>
     <object-folder>
         <object-folder name="Reciclaveis">
-            <object-type name="carta1" sid="193811974064320">
+            <object-type name="rec_carta_01" sid="559123205978744">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="486440277325338" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Home\Downloads\rec-carta1.png">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="458622681046234" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Nova pasta\rec_carta_01.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="rec_carta_02" sid="244589683569019">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="665263652397212" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Nova pasta\rec_carta_02.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="rec_carta_03" sid="386810581460125">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="281822888827427" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Nova pasta\rec_carta_03.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="rec_carta_04" sid="659081799399477">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="270035650148871" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Nova pasta\rec_carta_04.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="rec_carta_05" sid="520356812264827">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="835308789086874" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Nova pasta\rec_carta_05.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="rec_carta_06" sid="667535380662867">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="927638864331830" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Nova pasta\rec_carta_06.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="rec_carta_07" sid="923062025478993">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="872090627387073" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Nova pasta\rec_carta_07.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="rec_carta_08" sid="680579754043301">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="264453329260807" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Nova pasta\rec_carta_08.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="rec_carta_09" sid="927286312442501">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="739554638593519" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Nova pasta\rec_carta_09.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="rec_carta_10" sid="313818201459598">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="298161602994397" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Nova pasta\rec_carta_10.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="rec_carta_11" sid="872765866766065">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="667990847348154" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Nova pasta\rec_carta_11.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="rec_carta_12" sid="311991757086431">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="173885942289726" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Nova pasta\rec_carta_12.png">
                             <collision-poly>
                                 <point x="0.0166667" y="0.0111111" />
                                 <point x="0.983333" y="0.0111111" />
@@ -76,7 +263,7 @@
                 </instance-variables>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="226585856235652" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.507463" original-source="C:\Users\joshuakirtz\Downloads\cacamba-amar-80x68.png">
+                        <frame duration="1" hotspotX="0.506173" hotspotY="0.514706" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\cacamba-amar.png">
                             <collision-poly>
                                 <point x="0.025" y="0.0298507" />
                                 <point x="0.5" y="0" />
@@ -96,7 +283,7 @@
                 </instance-variables>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="291595026210654" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\joshuakirtz\Downloads\cacamba-azul-80x68.png">
+                        <frame duration="1" hotspotX="0.506173" hotspotY="0.507246" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\cacamba-azul.png">
                             <collision-poly>
                                 <point x="0.025" y="0.0294118" />
                                 <point x="0.5" y="0.0147059" />
@@ -116,7 +303,7 @@
                 </instance-variables>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="846866668222118" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\joshuakirtz\Downloads\cacamba-verd-80x68.png">
+                        <frame duration="1" hotspotX="0.506173" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\cacamba-verd.png">
                             <collision-poly>
                                 <point x="0.025" y="0.0294118" />
                                 <point x="0.5" y="0" />
@@ -136,7 +323,7 @@
                 </instance-variables>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="901498232706133" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\joshuakirtz\Downloads\cacamba-verm-80x68.png">
+                        <frame duration="1" hotspotX="0.506173" hotspotY="0.507246" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\cacamba-verm.png">
                             <collision-poly>
                                 <point x="0.025" y="0.0294118" />
                                 <point x="0.5" y="0.0147059" />
@@ -260,7 +447,7 @@
         <object-folder name="othervisual">
             <object-type name="BAckground" sid="536873185055528">
                 <plugin id="TiledBg" />
-                <texture original-source="C:\Users\joshuakirtz\Downloads\background-ceu-100x100.png" />
+                <texture original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\background.png" />
             </object-type>
             <object-type name="SujeiraAcumulada" sid="201616162758907">
                 <plugin id="Sprite" />
@@ -275,6 +462,31 @@
             </object-type>
             <object-type name="Concluir_Projetos" sid="158940452149906">
                 <plugin id="Button" />
+            </object-type>
+            <object-type name="BackgroundProjetos" sid="419783444811109">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="550322023412749" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Background_projetos.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="botao_concluir" sid="531759046463026">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="646380845099294" speed="5">
+                        <frame duration="1" hotspotX="0.508929" hotspotY="0.555556" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Ativo 82.png">
+                            <collision-poly>
+                                <point x="0.0243902" y="0.0769231" />
+                                <point x="0.487805" y="0" />
+                                <point x="0.97561" y="0.0769231" />
+                                <point x="0.97561" y="0.923077" />
+                                <point x="0.0243902" y="0.923077" />
+                                <point x="0" y="0.461538" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
             </object-type>
         </object-folder>
         <object-folder name="System">
@@ -326,7 +538,76 @@
                 <plugin id="Text" />
             </object-type>
         </object-folder>
-        <object-folder name="Projetos" />
+        <object-folder name="Projetos">
+            <object-type name="projeto_1" sid="482760991583321">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="582952340420501" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\projeto-1.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="projeto_2" sid="250639976520652">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="207216217288172" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\projeto_2.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="projeto_3" sid="682805004519937">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="974961169751738" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\projeto-3.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="projeto_4" sid="777019687586937">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="674916983036760" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\projeto-4.png">
+                            <collision-poly>
+                                <point x="0.0166667" y="0.0111111" />
+                                <point x="0.983333" y="0.0111111" />
+                                <point x="1" y="0.5" />
+                                <point x="0.983333" y="0.988889" />
+                                <point x="0.0166667" y="0.988889" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
     </object-folder>
     <families>
         <family name="Caçambas" plugin-id="Sprite" sid="316778183460846">
@@ -364,12 +645,31 @@
         </family>
         <family name="Reciclaveis" plugin-id="Sprite" sid="914956240337037">
             <members>
-                <member>carta1</member>
+                <member>rec_carta_01</member>
+                <member>rec_carta_02</member>
+                <member>rec_carta_03</member>
+                <member>rec_carta_04</member>
+                <member>rec_carta_05</member>
+                <member>rec_carta_06</member>
+                <member>rec_carta_07</member>
+                <member>rec_carta_08</member>
+                <member>rec_carta_09</member>
+                <member>rec_carta_10</member>
+                <member>rec_carta_11</member>
+                <member>rec_carta_12</member>
             </members>
             <instance-variables>
                 <instance-variable comment="valor que reduz" name="De" sid="768884788982257" type="number" />
                 <instance-variable comment="valor que aumenta" name="Para" sid="354226323123335" type="number" />
             </instance-variables>
+        </family>
+        <family name="Projetos" plugin-id="Sprite" sid="701263521895395">
+            <members>
+                <member>projeto_1</member>
+                <member>projeto_2</member>
+                <member>projeto_3</member>
+                <member>projeto_4</member>
+            </members>
         </family>
     </families>
     <layout-folder>
