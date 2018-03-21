@@ -280,7 +280,7 @@
                 </instance>
                 <instance type="LixoAcumulado" uid="27">
                     <properties>
-                        <text>LixoAcumulado:</text>
+                        <text></text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>
@@ -364,6 +364,9 @@
                         <CustoPlastico>0</CustoPlastico>
                         <CustoVidro>0</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -395,6 +398,9 @@
                         <CustoPlastico>0</CustoPlastico>
                         <CustoVidro>0</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -426,6 +432,9 @@
                         <CustoPlastico>0</CustoPlastico>
                         <CustoVidro>0</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -457,73 +466,14 @@
                         <CustoPlastico>0</CustoPlastico>
                         <CustoVidro>0</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>298.075775146</x>
                         <y>145.565460205</y>
-                        <z>0</z>
-                        <width>60</width>
-                        <height>90</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="rec_carta_01" uid="46">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <De>1</De>
-                        <Para>4</Para>
-                        <Construido>false</Construido>
-                        <CustoMetal>0</CustoMetal>
-                        <CustoPapel>0</CustoPapel>
-                        <CustoPlastico>0</CustoPlastico>
-                        <CustoVidro>0</CustoVidro>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>59.407592773</x>
-                        <y>263.373413086</y>
-                        <z>0</z>
-                        <width>60</width>
-                        <height>90</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="rec_carta_02" uid="26">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <De>1</De>
-                        <Para>4</Para>
-                        <Construido>false</Construido>
-                        <CustoMetal>0</CustoMetal>
-                        <CustoPapel>0</CustoPapel>
-                        <CustoPlastico>0</CustoPlastico>
-                        <CustoVidro>0</CustoVidro>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>140.871353149</x>
-                        <y>262.731689453</y>
                         <z>0</z>
                         <width>60</width>
                         <height>90</height>

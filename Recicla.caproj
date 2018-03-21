@@ -21,6 +21,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="Persist" version="1">Persist</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -661,12 +662,18 @@
             <instance-variables>
                 <instance-variable comment="valor que reduz" name="De" sid="768884788982257" type="number" />
                 <instance-variable comment="valor que aumenta" name="Para" sid="354226323123335" type="number" />
-                <instance-variable comment="Indica se está construido" name="Construido" sid="178420037682957" type="boolean" />
+                <instance-variable comment="True se esta construido" name="Construido" sid="178420037682957" type="boolean" />
+                <instance-variable comment="indica se não ta construido" name="NConstruido" sid="164225512252292" type="boolean" />
                 <instance-variable comment="Indica o custo em Metal" name="CustoMetal" sid="892871776041799" type="number" />
                 <instance-variable comment="Indica o custo em Papel" name="CustoPapel" sid="797298217992479" type="number" />
                 <instance-variable comment="Indica o custo em Plastico" name="CustoPlastico" sid="285059882584716" type="number" />
                 <instance-variable comment="Indica o custo em Vidro" name="CustoVidro" sid="144687553716401" type="number" />
             </instance-variables>
+            <behaviors>
+                <behavior-type name="Persist" sid="334432454726464">
+                    <behavior id="Persist" />
+                </behavior-type>
+            </behaviors>
         </family>
         <family name="Projetos" plugin-id="Sprite" sid="701263521895395">
             <members>
@@ -684,6 +691,11 @@
                 <instance-variable comment="Indica o custo em Plastico" name="CustoPlastico" sid="870086120027837" type="number" />
                 <instance-variable comment="Indica o custo em Vidro" name="CustoVidro" sid="543859146238424" type="number" />
             </instance-variables>
+            <behaviors>
+                <behavior-type name="Persist" sid="688873916809231">
+                    <behavior id="Persist" />
+                </behavior-type>
+            </behaviors>
         </family>
     </families>
     <layout-folder>

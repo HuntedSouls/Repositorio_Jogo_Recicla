@@ -241,33 +241,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Lost" uid="13">
-                    <properties>
-                        <text>YOU LOST!!</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>835</x>
-                        <y>539</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="rec_carta_01" uid="34">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -277,13 +250,17 @@
                     </properties>
                     <instance-variables>
                         <De>1</De>
-                        <Para>4</Para>
+                        <Para>3</Para>
                         <Construido>false</Construido>
-                        <CustoMetal>0</CustoMetal>
+                        <NConstruido>true</NConstruido>
+                        <CustoMetal>2</CustoMetal>
                         <CustoPapel>0</CustoPapel>
-                        <CustoPlastico>0</CustoPlastico>
+                        <CustoPlastico>1</CustoPlastico>
                         <CustoVidro>0</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -308,13 +285,17 @@
                     </properties>
                     <instance-variables>
                         <De>1</De>
-                        <Para>4</Para>
+                        <Para>2</Para>
                         <Construido>false</Construido>
-                        <CustoMetal>0</CustoMetal>
-                        <CustoPapel>0</CustoPapel>
+                        <NConstruido>true</NConstruido>
+                        <CustoMetal>2</CustoMetal>
+                        <CustoPapel>1</CustoPapel>
                         <CustoPlastico>0</CustoPlastico>
                         <CustoVidro>0</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -341,11 +322,15 @@
                         <De>1</De>
                         <Para>4</Para>
                         <Construido>false</Construido>
-                        <CustoMetal>0</CustoMetal>
+                        <NConstruido>true</NConstruido>
+                        <CustoMetal>2</CustoMetal>
                         <CustoPapel>0</CustoPapel>
                         <CustoPlastico>0</CustoPlastico>
-                        <CustoVidro>0</CustoVidro>
+                        <CustoVidro>1</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -369,14 +354,18 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <De>1</De>
-                        <Para>4</Para>
+                        <De>2</De>
+                        <Para>3</Para>
                         <Construido>false</Construido>
+                        <NConstruido>true</NConstruido>
                         <CustoMetal>0</CustoMetal>
-                        <CustoPapel>0</CustoPapel>
-                        <CustoPlastico>0</CustoPlastico>
+                        <CustoPapel>2</CustoPapel>
+                        <CustoPlastico>1</CustoPlastico>
                         <CustoVidro>0</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -400,14 +389,18 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <De>1</De>
-                        <Para>4</Para>
+                        <De>2</De>
+                        <Para>1</Para>
                         <Construido>false</Construido>
-                        <CustoMetal>0</CustoMetal>
-                        <CustoPapel>0</CustoPapel>
+                        <NConstruido>true</NConstruido>
+                        <CustoMetal>1</CustoMetal>
+                        <CustoPapel>2</CustoPapel>
                         <CustoPlastico>0</CustoPlastico>
                         <CustoVidro>0</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -431,14 +424,18 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <De>1</De>
+                        <De>2</De>
                         <Para>4</Para>
                         <Construido>false</Construido>
+                        <NConstruido>true</NConstruido>
                         <CustoMetal>0</CustoMetal>
-                        <CustoPapel>0</CustoPapel>
+                        <CustoPapel>2</CustoPapel>
                         <CustoPlastico>0</CustoPlastico>
-                        <CustoVidro>0</CustoVidro>
+                        <CustoVidro>1</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -462,14 +459,18 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <De>1</De>
-                        <Para>4</Para>
+                        <De>3</De>
+                        <Para>1</Para>
                         <Construido>false</Construido>
-                        <CustoMetal>0</CustoMetal>
+                        <NConstruido>true</NConstruido>
+                        <CustoMetal>1</CustoMetal>
                         <CustoPapel>0</CustoPapel>
-                        <CustoPlastico>0</CustoPlastico>
+                        <CustoPlastico>2</CustoPlastico>
                         <CustoVidro>0</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -493,14 +494,18 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <De>1</De>
-                        <Para>4</Para>
+                        <De>3</De>
+                        <Para>2</Para>
                         <Construido>false</Construido>
+                        <NConstruido>true</NConstruido>
                         <CustoMetal>0</CustoMetal>
-                        <CustoPapel>0</CustoPapel>
-                        <CustoPlastico>0</CustoPlastico>
+                        <CustoPapel>1</CustoPapel>
+                        <CustoPlastico>2</CustoPlastico>
                         <CustoVidro>0</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -524,14 +529,18 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <De>1</De>
+                        <De>3</De>
                         <Para>4</Para>
                         <Construido>false</Construido>
+                        <NConstruido>true</NConstruido>
                         <CustoMetal>0</CustoMetal>
                         <CustoPapel>0</CustoPapel>
-                        <CustoPlastico>0</CustoPlastico>
-                        <CustoVidro>0</CustoVidro>
+                        <CustoPlastico>2</CustoPlastico>
+                        <CustoVidro>1</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -555,14 +564,18 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <De>1</De>
-                        <Para>4</Para>
+                        <De>4</De>
+                        <Para>3</Para>
                         <Construido>false</Construido>
+                        <NConstruido>true</NConstruido>
                         <CustoMetal>0</CustoMetal>
                         <CustoPapel>0</CustoPapel>
-                        <CustoPlastico>0</CustoPlastico>
-                        <CustoVidro>0</CustoVidro>
+                        <CustoPlastico>1</CustoPlastico>
+                        <CustoVidro>2</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -586,14 +599,18 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <De>1</De>
-                        <Para>4</Para>
+                        <De>4</De>
+                        <Para>1</Para>
                         <Construido>false</Construido>
-                        <CustoMetal>0</CustoMetal>
+                        <NConstruido>true</NConstruido>
+                        <CustoMetal>1</CustoMetal>
                         <CustoPapel>0</CustoPapel>
                         <CustoPlastico>0</CustoPlastico>
-                        <CustoVidro>0</CustoVidro>
+                        <CustoVidro>2</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -617,14 +634,18 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <De>1</De>
-                        <Para>4</Para>
+                        <De>4</De>
+                        <Para>2</Para>
                         <Construido>false</Construido>
+                        <NConstruido>true</NConstruido>
                         <CustoMetal>0</CustoMetal>
-                        <CustoPapel>0</CustoPapel>
+                        <CustoPapel>1</CustoPapel>
                         <CustoPlastico>0</CustoPlastico>
-                        <CustoVidro>0</CustoVidro>
+                        <CustoVidro>2</CustoVidro>
                     </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>

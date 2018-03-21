@@ -27,7 +27,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="0" name="Lixos" />
         <family expanded="0" name="Quantias_Recursos" />
         <family expanded="0" name="Reciclaveis" />
-        <family expanded="0" name="Projetos" />
+        <family expanded="1" name="Projetos" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
@@ -36,7 +36,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/lixinhos/" />
         <folder expanded="1" path="object-folder/othervisual/" />
         <folder expanded="0" path="object-folder/System/" />
-        <folder expanded="0" path="object-folder/TExts/" />
+        <folder expanded="1" path="object-folder/TExts/" />
         <folder expanded="0" path="object-folder/Projetos/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />

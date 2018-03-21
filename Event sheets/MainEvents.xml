@@ -224,7 +224,7 @@
                         <condition id="-7" name="Compare instance variable" sid="696101651442905" type="ContadorCaçamba">
                             <param id="0" name="Instance variable">ContadorLixo</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">5</param>
+                            <param id="2" name="Value">10</param>
                         </condition>
                     </conditions>
                     <actions>

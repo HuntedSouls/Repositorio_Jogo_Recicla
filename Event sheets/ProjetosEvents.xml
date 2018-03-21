@@ -3,10 +3,42 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>ProjetosEvents</name>
     <events>
+        <variable comment="ve o último x usado" constant="0" name="UltimoX" sid="769690575547511" static="0" type="number">30</variable>
         <include>MainEvents</include>
         <event-block sid="159398580876390">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="702745724755858" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="127032076933018" type="System">
+                    <param id="0" name="Object to create">Reciclaveis</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">60</param>
+                    <param id="3" name="Y">260</param>
+                </action>
+                <action id="-3" name="Create object" sid="135667760389059" type="System">
+                    <param id="0" name="Object to create">Reciclaveis</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">140</param>
+                    <param id="3" name="Y">260</param>
+                </action>
+                <action id="-3" name="Create object" sid="340157416630486" type="System">
+                    <param id="0" name="Object to create">Reciclaveis</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">220</param>
+                    <param id="3" name="Y">260</param>
+                </action>
+                <action id="-3" name="Create object" sid="135035016779433" type="System">
+                    <param id="0" name="Object to create">Reciclaveis</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">300</param>
+                    <param id="3" name="Y">260</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="152251834927562">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="287206882448980" type="System" />
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="860014653290811" type="QuantiaMetal">
@@ -21,8 +53,8 @@
                 <action id="0" name="Set text" sid="310171772319797" type="QuantiaVidro">
                     <param id="0" name="Text">Vidro_Total</param>
                 </action>
-                <action id="1" name="Append text" sid="492840674632677" type="LixoAcumulado">
-                    <param id="0" name="Text">Sujeira_Total</param>
+                <action id="0" name="Set text" sid="492840674632677" type="LixoAcumulado">
+                    <param id="0" name="Text">&quot;Lixo Acumulado: &quot;&amp;Sujeira_Total</param>
                 </action>
             </actions>
         </event-block>
@@ -34,12 +66,73 @@
                     <param id="2" name="Object clicked">Reciclaveis</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="0" name="Call function" sid="778763438272494" type="Function">
-                    <param id="0" name="Name">&quot;Swap&quot;</param>
-                    <param id="1" name="Parameter {n}">Reciclaveis.De{###}Reciclaveis.Para</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="755699788942003">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="472857043552937" type="Reciclaveis">
+                            <param id="0" name="Instance variable">Construido</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="778763438272494" type="Function">
+                            <param id="0" name="Name">&quot;Swap&quot;</param>
+                            <param id="1" name="Parameter {n}">Reciclaveis.De{###}Reciclaveis.Para</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="961754644195622">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="930828607865322" type="System" />
+                        <condition id="-14" name="Compare variable" sid="147888746929571" type="System">
+                            <param id="0" name="Variable">Metal_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">Reciclaveis.CustoMetal</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="359994667707616" type="System">
+                            <param id="0" name="Variable">Papel_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">Reciclaveis.CustoPapel</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="253249095420094" type="System">
+                            <param id="0" name="Variable">Plástico_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">Reciclaveis.CustoPlastico</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="938631393007430" type="System">
+                            <param id="0" name="Variable">Vidro_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">Reciclaveis.CustoVidro</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="389175353403675" type="System">
+                            <param id="0" name="Variable">Metal_Total</param>
+                            <param id="1" name="Value">Reciclaveis.CustoMetal</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="574809336848518" type="System">
+                            <param id="0" name="Variable">Papel_Total</param>
+                            <param id="1" name="Value">Reciclaveis.CustoPapel</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="345151900015204" type="System">
+                            <param id="0" name="Variable">Plástico_Total</param>
+                            <param id="1" name="Value">Reciclaveis.CustoPlastico</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="890814664491008" type="System">
+                            <param id="0" name="Variable">Vidro_Total</param>
+                            <param id="1" name="Value">Reciclaveis.CustoVidro</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="859525192982502" type="Reciclaveis">
+                            <param id="0" name="Instance variable">Construido</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="972446686119222" type="Reciclaveis">
+                            <param id="0" name="Instance variable">NConstruido</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="284891803784014">
             <conditions>
@@ -62,9 +155,6 @@
                             <param id="0" name="Variable">Metal_Total</param>
                             <param id="1" name="Value">-1</param>
                         </action>
-                        <action id="0" name="Set text" sid="214159101356877" type="QuantiaMetal">
-                            <param id="0" name="Text">Metal_Total</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="572276368306845">
@@ -79,9 +169,6 @@
                         <action id="-10" name="Add to" sid="262104911061098" type="System">
                             <param id="0" name="Variable">Papel_Total</param>
                             <param id="1" name="Value">-1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="290122173401346" type="QuantiaPapel">
-                            <param id="0" name="Text">Papel_Total</param>
                         </action>
                     </actions>
                 </event-block>
@@ -98,9 +185,6 @@
                             <param id="0" name="Variable">Plástico_Total</param>
                             <param id="1" name="Value">-1</param>
                         </action>
-                        <action id="0" name="Set text" sid="769774967262806" type="QuantiaPlastico">
-                            <param id="0" name="Text">Plástico_Total</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="901498343650729">
@@ -115,9 +199,6 @@
                         <action id="-10" name="Add to" sid="855376744420221" type="System">
                             <param id="0" name="Variable">Vidro_Total</param>
                             <param id="1" name="Value">-1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="282588486836480" type="QuantiaVidro">
-                            <param id="0" name="Text">Vidro_Total</param>
                         </action>
                     </actions>
                 </event-block>
@@ -134,9 +215,6 @@
                             <param id="0" name="Variable">Metal_Total</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="0" name="Set text" sid="151979820593349" type="QuantiaMetal">
-                            <param id="0" name="Text">Metal_Total</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="138611248073419">
@@ -151,9 +229,6 @@
                         <action id="-10" name="Add to" sid="431272558196531" type="System">
                             <param id="0" name="Variable">Papel_Total</param>
                             <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="399466794790825" type="QuantiaPapel">
-                            <param id="0" name="Text">Papel_Total</param>
                         </action>
                     </actions>
                 </event-block>
@@ -170,9 +245,6 @@
                             <param id="0" name="Variable">Plástico_Total</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="0" name="Set text" sid="893353205408154" type="QuantiaPlastico">
-                            <param id="0" name="Text">Plástico_Total</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="274181979799971">
@@ -187,9 +259,6 @@
                         <action id="-10" name="Add to" sid="816908248339012" type="System">
                             <param id="0" name="Variable">Vidro_Total</param>
                             <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="405892748189547" type="QuantiaVidro">
-                            <param id="0" name="Text">Vidro_Total</param>
                         </action>
                     </actions>
                 </event-block>
@@ -216,9 +285,6 @@
                             <param id="0" name="Variable">Metal_Total</param>
                             <param id="1" name="Value">-1</param>
                         </action>
-                        <action id="0" name="Set text" sid="124550313578036" type="QuantiaMetal">
-                            <param id="0" name="Text">Metal_Total</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="872165717678447">
@@ -233,9 +299,6 @@
                         <action id="-10" name="Add to" sid="796685467416063" type="System">
                             <param id="0" name="Variable">Papel_Total</param>
                             <param id="1" name="Value">-1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="233324366146615" type="QuantiaPapel">
-                            <param id="0" name="Text">Papel_Total</param>
                         </action>
                     </actions>
                 </event-block>
@@ -252,9 +315,6 @@
                             <param id="0" name="Variable">Plástico_Total</param>
                             <param id="1" name="Value">-1</param>
                         </action>
-                        <action id="0" name="Set text" sid="672665910916326" type="QuantiaPlastico">
-                            <param id="0" name="Text">Plástico_Total</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="510873849628659">
@@ -269,9 +329,6 @@
                         <action id="-10" name="Add to" sid="638355591236447" type="System">
                             <param id="0" name="Variable">Vidro_Total</param>
                             <param id="1" name="Value">-1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="596936420142448" type="QuantiaVidro">
-                            <param id="0" name="Text">Vidro_Total</param>
                         </action>
                     </actions>
                 </event-block>
@@ -288,9 +345,6 @@
                             <param id="0" name="Variable">Metal_Total</param>
                             <param id="1" name="Value">2</param>
                         </action>
-                        <action id="0" name="Set text" sid="672619134803271" type="QuantiaMetal">
-                            <param id="0" name="Text">Metal_Total</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="120904452273527">
@@ -305,9 +359,6 @@
                         <action id="-10" name="Add to" sid="887269065508654" type="System">
                             <param id="0" name="Variable">Papel_Total</param>
                             <param id="1" name="Value">2</param>
-                        </action>
-                        <action id="0" name="Set text" sid="750748516402050" type="QuantiaPapel">
-                            <param id="0" name="Text">Papel_Total</param>
                         </action>
                     </actions>
                 </event-block>
@@ -324,9 +375,6 @@
                             <param id="0" name="Variable">Plástico_Total</param>
                             <param id="1" name="Value">2</param>
                         </action>
-                        <action id="0" name="Set text" sid="306172444225147" type="QuantiaPlastico">
-                            <param id="0" name="Text">Plástico_Total</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="718280903309981">
@@ -341,9 +389,6 @@
                         <action id="-10" name="Add to" sid="628700592989170" type="System">
                             <param id="0" name="Variable">Vidro_Total</param>
                             <param id="1" name="Value">2</param>
-                        </action>
-                        <action id="0" name="Set text" sid="144339931041390" type="QuantiaVidro">
-                            <param id="0" name="Text">Vidro_Total</param>
                         </action>
                     </actions>
                 </event-block>
@@ -374,14 +419,61 @@
                     <param id="0" name="Variable">Vidro_Total</param>
                     <param id="1" name="Value">0</param>
                 </action>
-                <action id="-12" name="Set group active" sid="588236412772254" type="System">
+                <action id="-12" name="Set group active" sid="147505082135764" type="System">
                     <param id="0" name="Group name">&quot;Coleta&quot;</param>
                     <param id="1" name="State">1</param>
                 </action>
-                <action id="-2" name="Go to layout" sid="190364760822488" type="System">
+                <action id="-2" name="Go to layout" sid="735596586746239" type="System">
                     <param id="0" name="Layout">Coleta</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="289166979485934">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="369939785096928" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="990230557053826">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="647375069583470" type="System">
+                            <param id="0" name="Object">Reciclaveis</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="404288453740526">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="234479091665732" type="Reciclaveis">
+                                    <param id="0" name="Instance variable">NConstruido</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="978342753026956" type="Reciclaveis" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="592107132833802">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="782326117256415" type="System" />
+                                <condition id="-2" name="Compare Y" sid="949410797224544" type="Reciclaveis">
+                                    <param id="0" name="Comparison">1</param>
+                                    <param id="1" name="Y co-ordinate">350</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="126739577941912" type="Reciclaveis">
+                                    <param id="0" name="X">UltimoX</param>
+                                    <param id="1" name="Y">350</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="617652605695820" type="System">
+                                    <param id="0" name="Variable">UltimoX</param>
+                                    <param id="1" name="Value">60</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
