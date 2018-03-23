@@ -10,11 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Coleta</layout>
+        <layout active="1" order="0">Coleta</layout>
         <layout order="2">Projetos</layout>
         <layout order="4">TrashOne</layout>
         <event-sheet order="1">MainEvents</event-sheet>
-        <event-sheet active="1" order="3">ProjetosEvents</event-sheet>
+        <event-sheet order="3">ProjetosEvents</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -31,12 +31,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="1" path="object-folder/Reciclaveis/" />
+        <folder expanded="0" path="object-folder/Reciclaveis/" />
         <folder expanded="0" path="object-folder/caçambas/" />
         <folder expanded="0" path="object-folder/lixinhos/" />
-        <folder expanded="1" path="object-folder/othervisual/" />
-        <folder expanded="0" path="object-folder/System/" />
-        <folder expanded="1" path="object-folder/TExts/" />
+        <folder expanded="0" path="object-folder/othervisual/" />
+        <folder expanded="1" path="object-folder/System/" />
+        <folder expanded="0" path="object-folder/TExts/" />
         <folder expanded="0" path="object-folder/Projetos/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />

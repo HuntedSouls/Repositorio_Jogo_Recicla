@@ -356,13 +356,13 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <De>0</De>
-                        <Para>0</Para>
+                        <De>1</De>
+                        <Para>2</Para>
                         <Construido>false</Construido>
-                        <CustoMetal>0</CustoMetal>
-                        <CustoPapel>0</CustoPapel>
-                        <CustoPlastico>0</CustoPlastico>
-                        <CustoVidro>0</CustoVidro>
+                        <CustoMetal>1</CustoMetal>
+                        <CustoPapel>1</CustoPapel>
+                        <CustoPlastico>1</CustoPlastico>
+                        <CustoVidro>1</CustoVidro>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Persist" />
@@ -390,13 +390,13 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <De>0</De>
-                        <Para>0</Para>
+                        <De>2</De>
+                        <Para>3</Para>
                         <Construido>false</Construido>
-                        <CustoMetal>0</CustoMetal>
-                        <CustoPapel>0</CustoPapel>
-                        <CustoPlastico>0</CustoPlastico>
-                        <CustoVidro>0</CustoVidro>
+                        <CustoMetal>1</CustoMetal>
+                        <CustoPapel>1</CustoPapel>
+                        <CustoPlastico>1</CustoPlastico>
+                        <CustoVidro>1</CustoVidro>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Persist" />
@@ -424,13 +424,13 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <De>0</De>
-                        <Para>0</Para>
+                        <De>3</De>
+                        <Para>4</Para>
                         <Construido>false</Construido>
-                        <CustoMetal>0</CustoMetal>
-                        <CustoPapel>0</CustoPapel>
-                        <CustoPlastico>0</CustoPlastico>
-                        <CustoVidro>0</CustoVidro>
+                        <CustoMetal>6</CustoMetal>
+                        <CustoPapel>2</CustoPapel>
+                        <CustoPlastico>6</CustoPlastico>
+                        <CustoVidro>2</CustoVidro>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Persist" />
@@ -458,13 +458,13 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <De>0</De>
-                        <Para>0</Para>
+                        <De>4</De>
+                        <Para>1</Para>
                         <Construido>false</Construido>
                         <CustoMetal>0</CustoMetal>
                         <CustoPapel>0</CustoPapel>
-                        <CustoPlastico>0</CustoPlastico>
-                        <CustoVidro>0</CustoVidro>
+                        <CustoPlastico>4</CustoPlastico>
+                        <CustoVidro>8</CustoVidro>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Persist" />

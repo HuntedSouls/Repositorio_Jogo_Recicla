@@ -60,10 +60,8 @@
         </event-block>
         <event-block sid="385019120742151">
             <conditions>
-                <condition id="6" name="On object clicked" sid="354856556651253" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Reciclaveis</param>
+                <condition id="17" name="On tap object" sid="354856556651253" type="Touch">
+                    <param id="0" name="Object">Reciclaveis</param>
                 </condition>
             </conditions>
             <actions />
@@ -134,6 +132,76 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <event-block sid="855905434291037">
+            <conditions>
+                <condition id="17" name="On tap object" sid="136492621856974" type="Touch">
+                    <param id="0" name="Object">Projetos</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="304264838706833">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="204443960755751" type="Projetos">
+                            <param id="0" name="Instance variable">Construido</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="960081877383788" type="Function">
+                            <param id="0" name="Name">&quot;Swap12&quot;</param>
+                            <param id="1" name="Parameter {n}">Projetos.De{###}Projetos.Para</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="635830908143186">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="235889987894955" type="System" />
+                        <condition id="-14" name="Compare variable" sid="546103522373516" type="System">
+                            <param id="0" name="Variable">Metal_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">Projetos.CustoMetal</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="161668937049199" type="System">
+                            <param id="0" name="Variable">Papel_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">Projetos.CustoPapel</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="631926895007876" type="System">
+                            <param id="0" name="Variable">Plástico_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">Projetos.CustoPlastico</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="944887269119481" type="System">
+                            <param id="0" name="Variable">Vidro_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">Projetos.CustoVidro</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="518974858397458" type="System">
+                            <param id="0" name="Variable">Metal_Total</param>
+                            <param id="1" name="Value">Projetos.CustoMetal</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="502200769241488" type="System">
+                            <param id="0" name="Variable">Papel_Total</param>
+                            <param id="1" name="Value">Projetos.CustoPapel</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="527428940700411" type="System">
+                            <param id="0" name="Variable">Plástico_Total</param>
+                            <param id="1" name="Value">Projetos.CustoPlastico</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="457011607390057" type="System">
+                            <param id="0" name="Variable">Vidro_Total</param>
+                            <param id="1" name="Value">Projetos.CustoVidro</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="249027955490170" type="Projetos">
+                            <param id="0" name="Instance variable">Construido</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
         <event-block sid="284891803784014">
             <conditions>
                 <condition id="0" name="On function" sid="119908591312225" type="Function">
@@ -149,11 +217,20 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="739291139973247" type="System">
+                            <param id="0" name="Variable">Metal_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-10" name="Add to" sid="292891559957996" type="System">
                             <param id="0" name="Variable">Metal_Total</param>
                             <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="722287624269408" type="Function">
+                            <param id="0" name="Name">&quot;Add&quot;</param>
+                            <param id="1" name="Parameter {n}">Function.Param(1)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -164,11 +241,20 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">2</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="632227113760101" type="System">
+                            <param id="0" name="Variable">Papel_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-10" name="Add to" sid="262104911061098" type="System">
                             <param id="0" name="Variable">Papel_Total</param>
                             <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="262585294848668" type="Function">
+                            <param id="0" name="Name">&quot;Add&quot;</param>
+                            <param id="1" name="Parameter {n}">Function.Param(1)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -179,11 +265,20 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">3</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="119053148301439" type="System">
+                            <param id="0" name="Variable">Plástico_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-10" name="Add to" sid="395163897949606" type="System">
                             <param id="0" name="Variable">Plástico_Total</param>
                             <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="647829245969885" type="Function">
+                            <param id="0" name="Name">&quot;Add&quot;</param>
+                            <param id="1" name="Parameter {n}">Function.Param(1)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -194,71 +289,20 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">4</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="785577855540164" type="System">
+                            <param id="0" name="Variable">Vidro_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-10" name="Add to" sid="855376744420221" type="System">
                             <param id="0" name="Variable">Vidro_Total</param>
                             <param id="1" name="Value">-1</param>
                         </action>
-                    </actions>
-                </event-block>
-                <event-block sid="293906043471822">
-                    <conditions>
-                        <condition id="1" name="Compare parameter" sid="312023933973727" type="Function">
-                            <param id="0" name="Index">1</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Add to" sid="311076293117986" type="System">
-                            <param id="0" name="Variable">Metal_Total</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="138611248073419">
-                    <conditions>
-                        <condition id="1" name="Compare parameter" sid="964338947527660" type="Function">
-                            <param id="0" name="Index">1</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Add to" sid="431272558196531" type="System">
-                            <param id="0" name="Variable">Papel_Total</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="309812012435326">
-                    <conditions>
-                        <condition id="1" name="Compare parameter" sid="209962536986684" type="Function">
-                            <param id="0" name="Index">1</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">3</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Add to" sid="700687412194278" type="System">
-                            <param id="0" name="Variable">Plástico_Total</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="274181979799971">
-                    <conditions>
-                        <condition id="1" name="Compare parameter" sid="907913958623027" type="Function">
-                            <param id="0" name="Index">1</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Add to" sid="816908248339012" type="System">
-                            <param id="0" name="Variable">Vidro_Total</param>
-                            <param id="1" name="Value">1</param>
+                        <action id="0" name="Call function" sid="819515008593131" type="Function">
+                            <param id="0" name="Name">&quot;Add&quot;</param>
+                            <param id="1" name="Parameter {n}">Function.Param(1)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -279,11 +323,24 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="564276540199943" type="System">
+                            <param id="0" name="Variable">Metal_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-10" name="Add to" sid="894912197095051" type="System">
                             <param id="0" name="Variable">Metal_Total</param>
                             <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="532092521160809" type="Function">
+                            <param id="0" name="Name">&quot;Add&quot;</param>
+                            <param id="1" name="Parameter {n}">Function.Param(1)</param>
+                        </action>
+                        <action id="0" name="Call function" sid="111547337679238" type="Function">
+                            <param id="0" name="Name">&quot;Add&quot;</param>
+                            <param id="1" name="Parameter {n}">Function.Param(1)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -294,11 +351,24 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">2</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="909848245389181" type="System">
+                            <param id="0" name="Variable">Papel_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-10" name="Add to" sid="796685467416063" type="System">
                             <param id="0" name="Variable">Papel_Total</param>
                             <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="337762722927202" type="Function">
+                            <param id="0" name="Name">&quot;Add&quot;</param>
+                            <param id="1" name="Parameter {n}">Function.Param(1)</param>
+                        </action>
+                        <action id="0" name="Call function" sid="951832973092111" type="Function">
+                            <param id="0" name="Name">&quot;Add&quot;</param>
+                            <param id="1" name="Parameter {n}">Function.Param(1)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -309,11 +379,24 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">3</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="645557931003242" type="System">
+                            <param id="0" name="Variable">Plástico_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-10" name="Add to" sid="677614972267208" type="System">
                             <param id="0" name="Variable">Plástico_Total</param>
                             <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="527640929845646" type="Function">
+                            <param id="0" name="Name">&quot;Add&quot;</param>
+                            <param id="1" name="Parameter {n}">Function.Param(1)</param>
+                        </action>
+                        <action id="0" name="Call function" sid="725722530953877" type="Function">
+                            <param id="0" name="Name">&quot;Add&quot;</param>
+                            <param id="1" name="Parameter {n}">Function.Param(1)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -324,71 +407,94 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">4</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="981737446133258" type="System">
+                            <param id="0" name="Variable">Vidro_Total</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-10" name="Add to" sid="638355591236447" type="System">
                             <param id="0" name="Variable">Vidro_Total</param>
                             <param id="1" name="Value">-1</param>
                         </action>
+                        <action id="0" name="Call function" sid="779698676029147" type="Function">
+                            <param id="0" name="Name">&quot;Add&quot;</param>
+                            <param id="1" name="Parameter {n}">Function.Param(1)</param>
+                        </action>
+                        <action id="0" name="Call function" sid="337052181270160" type="Function">
+                            <param id="0" name="Name">&quot;Add&quot;</param>
+                            <param id="1" name="Parameter {n}">Function.Param(1)</param>
+                        </action>
                     </actions>
                 </event-block>
-                <event-block sid="425655907317309">
+            </sub-events>
+        </event-block>
+        <event-block sid="756787965823530">
+            <conditions>
+                <condition id="0" name="On function" sid="230990676476604" type="Function">
+                    <param id="0" name="Name">&quot;Add&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="103740833695980">
                     <conditions>
-                        <condition id="1" name="Compare parameter" sid="338191403319327" type="Function">
-                            <param id="0" name="Index">1</param>
+                        <condition id="1" name="Compare parameter" sid="841782930823783" type="Function">
+                            <param id="0" name="Index">0</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Add to" sid="448891581957347" type="System">
+                        <action id="-10" name="Add to" sid="688423178304596" type="System">
                             <param id="0" name="Variable">Metal_Total</param>
-                            <param id="1" name="Value">2</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="120904452273527">
+                <event-block sid="490084676657944">
                     <conditions>
-                        <condition id="1" name="Compare parameter" sid="863181125675607" type="Function">
-                            <param id="0" name="Index">1</param>
+                        <condition id="1" name="Compare parameter" sid="359483989923437" type="Function">
+                            <param id="0" name="Index">0</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">2</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Add to" sid="887269065508654" type="System">
+                        <action id="-10" name="Add to" sid="604378940026237" type="System">
                             <param id="0" name="Variable">Papel_Total</param>
-                            <param id="1" name="Value">2</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="763807951648863">
+                <event-block sid="534217447692333">
                     <conditions>
-                        <condition id="1" name="Compare parameter" sid="770540883466639" type="Function">
-                            <param id="0" name="Index">1</param>
+                        <condition id="1" name="Compare parameter" sid="346357752872830" type="Function">
+                            <param id="0" name="Index">0</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">3</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Add to" sid="742945823204559" type="System">
+                        <action id="-10" name="Add to" sid="646156566172310" type="System">
                             <param id="0" name="Variable">Plástico_Total</param>
-                            <param id="1" name="Value">2</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="718280903309981">
+                <event-block sid="378430591121583">
                     <conditions>
-                        <condition id="1" name="Compare parameter" sid="754337293504254" type="Function">
-                            <param id="0" name="Index">1</param>
+                        <condition id="1" name="Compare parameter" sid="474039588212852" type="Function">
+                            <param id="0" name="Index">0</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">4</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Add to" sid="628700592989170" type="System">
+                        <action id="-10" name="Add to" sid="313684883847676" type="System">
                             <param id="0" name="Variable">Vidro_Total</param>
-                            <param id="1" name="Value">2</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
