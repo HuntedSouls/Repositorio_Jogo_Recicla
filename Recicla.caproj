@@ -490,6 +490,29 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="TiledBackground" sid="538041378349160">
+                <plugin id="TiledBg" />
+                <texture />
+            </object-type>
+            <object-type name="fechar_zoom" sid="779399958211283">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="827392892541646" speed="5">
+                        <frame duration="1" hotspotX="0.510204" hotspotY="0.510204" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\fechar_zoom.png">
+                            <collision-poly>
+                                <point x="0.150943" y="0.150943" />
+                                <point x="0.490566" y="0" />
+                                <point x="0.849057" y="0.150943" />
+                                <point x="0.981132" y="0.490566" />
+                                <point x="0.849057" y="0.849057" />
+                                <point x="0.490566" y="1" />
+                                <point x="0.150943" y="0.849057" />
+                                <point x="0" y="0.490566" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="System">
             <object-type name="Mouse" sid="687186569517123">
@@ -613,6 +636,84 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="ProjetosZoom">
+            <object-type name="projeto_1_zoom" sid="294358403096128">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="791322147397219" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\projeto-1-zoom.png">
+                            <collision-poly>
+                                <point x="0.0259259" y="0.0172414" />
+                                <point x="0.5" y="0" />
+                                <point x="0.974074" y="0.0172414" />
+                                <point x="1" y="0.5" />
+                                <point x="0.974074" y="0.982759" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0259259" y="0.982759" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="projeto_2_zoom" sid="131400922112401">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="311736853659760" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\projeto-2-zoom.png">
+                            <collision-poly>
+                                <point x="0.0259259" y="0.0172414" />
+                                <point x="0.5" y="0" />
+                                <point x="0.974074" y="0.0172414" />
+                                <point x="1" y="0.5" />
+                                <point x="0.974074" y="0.982759" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0259259" y="0.982759" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="projeto_3_zoom" sid="290397890191399">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="948595834412586" speed="5">
+                        <frame duration="1" hotspotX="0.501845" hotspotY="0.501235" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\projeto-3-zoom.png">
+                            <collision-poly>
+                                <point x="0.0258303" y="0.017284" />
+                                <point x="0.498155" y="0" />
+                                <point x="0.97417" y="0.017284" />
+                                <point x="1" y="0.498765" />
+                                <point x="0.97417" y="0.982716" />
+                                <point x="0.498155" y="1" />
+                                <point x="0.0258303" y="0.982716" />
+                                <point x="0" y="0.498765" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="projeto_4_zoom" sid="284563242143582">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="882533170233252" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501235" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\projeto-4-zoom.png">
+                            <collision-poly>
+                                <point x="0.0222222" y="0.0148148" />
+                                <point x="0.5" y="0" />
+                                <point x="0.977778" y="0.0148148" />
+                                <point x="1" y="0.498765" />
+                                <point x="0.977778" y="0.985185" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0222222" y="0.985185" />
+                                <point x="0" y="0.498765" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
     </object-folder>
     <families>
         <family name="Caçambas" plugin-id="Sprite" sid="316778183460846">
@@ -694,12 +795,24 @@
                 <instance-variable comment="Indica o custo em Papel" name="CustoPapel" sid="468214025443710" type="number" />
                 <instance-variable comment="Indica o custo em Plastico" name="CustoPlastico" sid="870086120027837" type="number" />
                 <instance-variable comment="Indica o custo em Vidro" name="CustoVidro" sid="543859146238424" type="number" />
+                <instance-variable comment="Indica o código da carta para o zoom" name="Codigo" sid="625064787637188" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Persist" sid="688873916809231">
                     <behavior id="Persist" />
                 </behavior-type>
             </behaviors>
+        </family>
+        <family name="Projetos_Zoom" plugin-id="Sprite" sid="192345516201829">
+            <members>
+                <member>projeto_1_zoom</member>
+                <member>projeto_2_zoom</member>
+                <member>projeto_3_zoom</member>
+                <member>projeto_4_zoom</member>
+            </members>
+            <instance-variables>
+                <instance-variable comment="Indica código para a carta clicada" name="CodigoCarta" sid="328147382192253" type="number" />
+            </instance-variables>
         </family>
     </families>
     <layout-folder>

@@ -363,6 +363,7 @@
                         <CustoPapel>1</CustoPapel>
                         <CustoPlastico>1</CustoPlastico>
                         <CustoVidro>1</CustoVidro>
+                        <Codigo>1</Codigo>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Persist" />
@@ -397,6 +398,7 @@
                         <CustoPapel>1</CustoPapel>
                         <CustoPlastico>1</CustoPlastico>
                         <CustoVidro>1</CustoVidro>
+                        <Codigo>2</Codigo>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Persist" />
@@ -431,6 +433,7 @@
                         <CustoPapel>2</CustoPapel>
                         <CustoPlastico>6</CustoPlastico>
                         <CustoVidro>2</CustoVidro>
+                        <Codigo>3</Codigo>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Persist" />
@@ -465,6 +468,7 @@
                         <CustoPapel>0</CustoPapel>
                         <CustoPlastico>4</CustoPlastico>
                         <CustoVidro>8</CustoVidro>
+                        <Codigo>4</Codigo>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Persist" />
@@ -485,6 +489,24 @@
                     </world>
                 </instance>
             </instances>
+            <effects />
+        </layer>
+        <layer name="Zoom" sid="120891283328683">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
             <effects />
         </layer>
     </layers>
