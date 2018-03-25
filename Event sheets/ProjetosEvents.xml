@@ -201,6 +201,9 @@
                             <param id="0" name="Instance variable">Construido</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="-16" name="Set opacity" sid="753898753747315" type="Projetos">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -592,7 +595,7 @@
                 <condition id="-7" name="Compare instance variable" sid="750570592759959" type="Projetos">
                     <param id="0" name="Instance variable">Codigo</param>
                     <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
+                    <param id="2" name="Value">Projetos_zoom.CodigoCarta</param>
                 </condition>
             </conditions>
             <actions>
@@ -606,7 +609,7 @@
                     <param id="0" name="Opacity">75</param>
                 </action>
                 <action id="-3" name="Create object" sid="318306580400809" type="System">
-                    <param id="0" name="Object to create">projeto_1_zoom</param>
+                    <param id="0" name="Object to create">Projetos_Zoom</param>
                     <param id="1" name="Layer">3</param>
                     <param id="2" name="X">180</param>
                     <param id="3" name="Y">240</param>
