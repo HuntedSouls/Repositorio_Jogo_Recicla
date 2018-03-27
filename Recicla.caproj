@@ -477,7 +477,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="646380845099294" speed="5">
-                        <frame duration="1" hotspotX="0.508929" hotspotY="0.555556" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\Ativo 82.png">
+                        <frame duration="1" hotspotX="0.513043" hotspotY="0.567568" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\botao_concluir.png">
                             <collision-poly>
                                 <point x="0.0243902" y="0.0769231" />
                                 <point x="0.487805" y="0" />
