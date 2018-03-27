@@ -508,7 +508,9 @@
         </event-block>
         <event-block sid="272000671940421">
             <conditions>
-                <condition id="0" name="On clicked" sid="248473430561752" type="Concluir_Projetos" />
+                <condition id="17" name="On tap object" sid="248473430561752" type="Touch">
+                    <param id="0" name="Object">botao_concluir</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-10" name="Add to" sid="882526276223209" type="System">
@@ -592,11 +594,6 @@
                 <condition id="18" name="On double-tap object" sid="272479463591671" type="Touch">
                     <param id="0" name="Object">Projetos</param>
                 </condition>
-                <condition id="-7" name="Compare instance variable" sid="750570592759959" type="Projetos">
-                    <param id="0" name="Instance variable">Codigo</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">Projetos_zoom.CodigoCarta</param>
-                </condition>
             </conditions>
             <actions>
                 <action id="-3" name="Create object" sid="308963793518033" type="System">
@@ -608,19 +605,99 @@
                 <action id="-16" name="Set opacity" sid="658723447574832" type="TiledBackground">
                     <param id="0" name="Opacity">75</param>
                 </action>
-                <action id="-3" name="Create object" sid="318306580400809" type="System">
-                    <param id="0" name="Object to create">Projetos_Zoom</param>
-                    <param id="1" name="Layer">3</param>
-                    <param id="2" name="X">180</param>
-                    <param id="3" name="Y">240</param>
-                </action>
-                <action id="-3" name="Create object" sid="369653451974391" type="System">
+                <action id="-3" name="Create object" sid="910612451794048" type="System">
                     <param id="0" name="Object to create">fechar_zoom</param>
                     <param id="1" name="Layer">3</param>
                     <param id="2" name="X">310</param>
                     <param id="3" name="Y">50</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="674877606023594">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="788587693111589" type="Projetos">
+                            <param id="0" name="Instance variable">Codigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="318306580400809" type="System">
+                            <param id="0" name="Object to create">projeto_1_zoom</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">180</param>
+                            <param id="3" name="Y">240</param>
+                        </action>
+                        <action id="-29" name="Move to object" sid="545131821386150" type="projeto_1_zoom">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Object">fechar_zoom</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="199088273046472">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="751279524099619" type="Projetos">
+                            <param id="0" name="Instance variable">Codigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="586484149622570" type="System">
+                            <param id="0" name="Object to create">projeto_2_zoom</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">180</param>
+                            <param id="3" name="Y">240</param>
+                        </action>
+                        <action id="-29" name="Move to object" sid="492797153023382" type="projeto_2_zoom">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Object">fechar_zoom</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="679030454980660">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="479746093096470" type="Projetos">
+                            <param id="0" name="Instance variable">Codigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="932016069719335" type="System">
+                            <param id="0" name="Object to create">projeto_3_zoom</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">180</param>
+                            <param id="3" name="Y">240</param>
+                        </action>
+                        <action id="-29" name="Move to object" sid="200577259769517" type="projeto_3_zoom">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Object">fechar_zoom</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="311674826889019">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="970178170810482" type="Projetos">
+                            <param id="0" name="Instance variable">Codigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="376097013680609" type="System">
+                            <param id="0" name="Object to create">projeto_4_zoom</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">180</param>
+                            <param id="3" name="Y">240</param>
+                        </action>
+                        <action id="-29" name="Move to object" sid="367480803161976" type="projeto_4_zoom">
+                            <param id="0" name="Where">1</param>
+                            <param id="1" name="Object">fechar_zoom</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="481039157027819">
             <conditions>
