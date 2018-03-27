@@ -10,6 +10,7 @@
     <unique-id>1yufxrknvjj16</unique-id>
     <saved-with-version>25500</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
@@ -445,6 +446,111 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Metal2" sid="828462639364054">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="518902177512566" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.485714" original-source="C:\Users\joshuakirtz\Downloads\saco-lixo-amar-35x50.png">
+                            <collision-poly>
+                                <point x="0.26" y="0.628571" />
+                                <point x="0" y="0.514286" />
+                                <point x="0.24" y="0.342857" />
+                                <point x="0.5" y="0.114286" />
+                                <point x="0.92" y="0.114286" />
+                                <point x="0.98" y="0.514286" />
+                                <point x="0.92" y="0.885714" />
+                                <point x="0.5" y="0.885714" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Papel2" sid="817260817957485">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="818748544448343" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.485714" original-source="C:\Users\joshuakirtz\Downloads\saco-lixo-azul-35x50.png">
+                            <collision-poly>
+                                <point x="0.26" y="0.628571" />
+                                <point x="0.02" y="0.514286" />
+                                <point x="0.24" y="0.342857" />
+                                <point x="0.5" y="0.114286" />
+                                <point x="0.92" y="0.114286" />
+                                <point x="1" y="0.514286" />
+                                <point x="0.92" y="0.885714" />
+                                <point x="0.5" y="0.885714" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Plastico2" sid="322733502025973">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="200816115000342">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="583731141764655" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.485714" original-source="C:\Users\joshuakirtz\Downloads\saco-lixo-verm-35x50.png">
+                            <collision-poly>
+                                <point x="0.26" y="0.628571" />
+                                <point x="0" y="0.514286" />
+                                <point x="0.24" y="0.342857" />
+                                <point x="0.5" y="0.114286" />
+                                <point x="0.94" y="0.085714" />
+                                <point x="1" y="0.514286" />
+                                <point x="0.92" y="0.885714" />
+                                <point x="0.5" y="0.885714" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Vidro2" sid="334210014778526">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="930894683778945">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="240394369681625" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.485714" original-source="C:\Users\joshuakirtz\Downloads\saco-lixo-verd-35x50.png">
+                            <collision-poly>
+                                <point x="0.26" y="0.628571" />
+                                <point x="0" y="0.514286" />
+                                <point x="0.24" y="0.342857" />
+                                <point x="0.5" y="0.114286" />
+                                <point x="0.94" y="0.085714" />
+                                <point x="1" y="0.514286" />
+                                <point x="0.92" y="0.885714" />
+                                <point x="0.5" y="0.857143" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Lixo2" sid="204841387105491">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="248512899892038" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.485714" original-source="C:\Users\joshuakirtz\Downloads\saco-lixo-pret-35x50.png">
+                            <collision-poly>
+                                <point x="0.26" y="0.628571" />
+                                <point x="0" y="0.514286" />
+                                <point x="0.24" y="0.342857" />
+                                <point x="0.5" y="0.114286" />
+                                <point x="0.92" y="0.114286" />
+                                <point x="1" y="0.514286" />
+                                <point x="0.92" y="0.885714" />
+                                <point x="0.5" y="0.885714" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="othervisual">
             <object-type name="BAckground" sid="536873185055528">
@@ -513,6 +619,15 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="HowToPlay" sid="772791411896313">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="StartGame" sid="413909764221088">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="Next" sid="325630533665396">
+                <plugin id="Button" />
+            </object-type>
         </object-folder>
         <object-folder name="System">
             <object-type name="Mouse" sid="687186569517123">
@@ -529,6 +644,9 @@
             </object-type>
             <object-type name="Touch" sid="223603722341626">
                 <plugin id="Touch" />
+            </object-type>
+            <object-type name="FileGetter" sid="132253627316850">
+                <plugin id="AJAX" />
             </object-type>
         </object-folder>
         <object-folder name="TExts">
@@ -563,6 +681,12 @@
                 <plugin id="Text" />
             </object-type>
             <object-type name="LixoAcumulado" sid="879315064487235">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Nome_Menu" sid="134699128031429">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="HowToTexts" sid="147546011095449">
                 <plugin id="Text" />
             </object-type>
         </object-folder>
@@ -727,10 +851,15 @@
         <family name="Lixos" plugin-id="Sprite" sid="602575539372614">
             <members>
                 <member>Lixo</member>
+                <member>Lixo2</member>
                 <member>Metal</member>
+                <member>Metal2</member>
                 <member>Papel</member>
+                <member>Papel2</member>
                 <member>Plastico</member>
+                <member>Plastico2</member>
                 <member>Vidro</member>
+                <member>Vidro2</member>
             </members>
             <behaviors>
                 <behavior-type name="DragDrop2" sid="550082761878395">
@@ -819,10 +948,14 @@
         <layout>Coleta.xml</layout>
         <layout>Projetos.xml</layout>
         <layout>TrashOne.xml</layout>
+        <layout>MenuPrincipal.xml</layout>
+        <layout>HowToPlay1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>MainEvents.xml</event-sheet>
         <event-sheet>ProjetosEvents.xml</event-sheet>
+        <event-sheet>Menu.xml</event-sheet>
+        <event-sheet>HowToPlay1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="24" />
@@ -832,6 +965,7 @@
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
+        <global-instance type="FileGetter" uid="55" />
     </global-instances>
     <sounds-folder />
     <music-folder />
@@ -844,5 +978,6 @@
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
         </file-folder>
+        <file name="Teste1Jogo.txt" />
     </files-folder>
 </c2project>

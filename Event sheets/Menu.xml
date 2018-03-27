@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Menu</name>
+    <events>
+        <event-block sid="279261374077318">
+            <conditions>
+                <condition id="0" name="On clicked" sid="633335155348241" type="HowToPlay" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="681653699367595" type="System">
+                    <param id="0" name="Layout">HowToPlay1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="798699584544215">
+            <conditions>
+                <condition id="0" name="On clicked" sid="553836327723032" type="StartGame" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="763148379656572" type="System">
+                    <param id="0" name="Layout">Coleta</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
