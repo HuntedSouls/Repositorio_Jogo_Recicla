@@ -1,0 +1,20 @@
+Fase de Reciclagem:
+No topo da tela haverá 4 caixas coloridas 
+indicando a quantidade de cada recurso que
+foi coletado e está disponível.
+Logo abaixo encontrará os 4 projetos que deve 
+concluir para vencer o jogo. Toque duplo no 
+projeto permite ver mais detalhes sobre ele.
+Toque simples constrói o projeto, e depois 
+de construido pode ativar sua habilidade 
+com um toque simples. 
+Abaixo dos projetos está a zona de reciclagem,
+nela se encontram os produtos recicláveis que
+pode criar utilizando seus recursos. A cada fase
+aparecem 4 novos produtos, e todos os que 
+guardou da fase de reciclagem anterior, 
+no máximo 5 podem ser guardados entre cada fase.
+Quando estiver satisfeito com sua reciclagem 
+clique no botão concluir para voltar a fase de
+coleta, lembrando que qualquer recurso não 
+utilizado vira lixo acumulado!

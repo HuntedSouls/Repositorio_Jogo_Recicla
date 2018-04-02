@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>HowToPlay2</name>
+    <events>
+        <event-block sid="436713892126978">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="771456098175647" type="System" />
+            </conditions>
+            <actions>
+                <action id="1" name="Request project file" sid="122982070359048" type="FileGetter">
+                    <param id="0" name="Tag">&quot;Text2&quot;</param>
+                    <param id="1" name="File">HowToPlay2.txt</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="497287710532692">
+            <conditions>
+                <condition id="0" name="On completed" sid="881137436410909" type="FileGetter">
+                    <param id="0" name="Tag">&quot;Text2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="362971022536100" type="HowToTexts">
+                    <param id="0" name="Text">FileGetter.LastData</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="547229305300275">
+            <conditions>
+                <condition id="0" name="On clicked" sid="470993274407442" type="Next" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="646294282378819" type="System">
+                    <param id="0" name="Layout">MenuPrincipal</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

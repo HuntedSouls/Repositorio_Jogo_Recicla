@@ -542,56 +542,9 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="289166979485934">
-            <conditions>
-                <condition id="-3" name="On end of layout" sid="369939785096928" type="System" />
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="990230557053826">
-                    <conditions>
-                        <condition id="-11" name="For Each" sid="647375069583470" type="System">
-                            <param id="0" name="Object">Reciclaveis</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="404288453740526">
-                            <conditions>
-                                <condition id="-8" name="Is boolean instance variable set" sid="234479091665732" type="Reciclaveis">
-                                    <param id="0" name="Instance variable">NConstruido</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-9" name="Destroy" sid="978342753026956" type="Reciclaveis" />
-                            </actions>
-                        </event-block>
-                        <event-block sid="592107132833802">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="782326117256415" type="System" />
-                                <condition id="-2" name="Compare Y" sid="949410797224544" type="Reciclaveis">
-                                    <param id="0" name="Comparison">1</param>
-                                    <param id="1" name="Y co-ordinate">350</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-3" name="Set position" sid="126739577941912" type="Reciclaveis">
-                                    <param id="0" name="X">UltimoX</param>
-                                    <param id="1" name="Y">370</param>
-                                </action>
-                                <action id="-10" name="Add to" sid="617652605695820" type="System">
-                                    <param id="0" name="Variable">UltimoX</param>
-                                    <param id="1" name="Value">80</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-            </sub-events>
-        </event-block>
         <event-block sid="206631784121100">
             <conditions>
-                <condition id="18" name="On double-tap object" sid="272479463591671" type="Touch">
+                <condition id="16" name="On hold over object" sid="272479463591671" type="Touch">
                     <param id="0" name="Object">Projetos</param>
                 </condition>
             </conditions>
@@ -710,6 +663,58 @@
                 <action id="-9" name="Destroy" sid="828404713316653" type="Projetos_Zoom" />
                 <action id="-9" name="Destroy" sid="624650685167418" type="fechar_zoom" />
             </actions>
+        </event-block>
+        <event-block sid="289166979485934">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="369939785096928" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="990230557053826">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="647375069583470" type="System">
+                            <param id="0" name="Object">Reciclaveis</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="404288453740526">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="234479091665732" type="Reciclaveis">
+                                    <param id="0" name="Instance variable">NConstruido</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="978342753026956" type="Reciclaveis" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="592107132833802">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="782326117256415" type="System" />
+                                <condition id="-2" name="Compare Y" sid="949410797224544" type="Reciclaveis">
+                                    <param id="0" name="Comparison">1</param>
+                                    <param id="1" name="Y co-ordinate">350</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="817565926348650" type="System">
+                                    <param id="0" name="Variable">UltimoX</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">400</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="126739577941912" type="Reciclaveis">
+                                    <param id="0" name="X">UltimoX</param>
+                                    <param id="1" name="Y">370</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="617652605695820" type="System">
+                                    <param id="0" name="Variable">UltimoX</param>
+                                    <param id="1" name="Value">80</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

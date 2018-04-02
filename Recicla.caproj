@@ -851,15 +851,10 @@
         <family name="Lixos" plugin-id="Sprite" sid="602575539372614">
             <members>
                 <member>Lixo</member>
-                <member>Lixo2</member>
                 <member>Metal</member>
-                <member>Metal2</member>
                 <member>Papel</member>
-                <member>Papel2</member>
                 <member>Plastico</member>
-                <member>Plastico2</member>
                 <member>Vidro</member>
-                <member>Vidro2</member>
             </members>
             <behaviors>
                 <behavior-type name="DragDrop2" sid="550082761878395">
@@ -950,12 +945,14 @@
         <layout>TrashOne.xml</layout>
         <layout>MenuPrincipal.xml</layout>
         <layout>HowToPlay1.xml</layout>
+        <layout>HowToPlay2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>MainEvents.xml</event-sheet>
         <event-sheet>ProjetosEvents.xml</event-sheet>
         <event-sheet>Menu.xml</event-sheet>
         <event-sheet>HowToPlay1.xml</event-sheet>
+        <event-sheet>HowToPlay2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="24" />
@@ -978,6 +975,7 @@
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
         </file-folder>
-        <file name="Teste1Jogo.txt" />
+        <file name="HowToPlay1.txt" />
+        <file name="HowToPlay2.txt" />
     </files-folder>
 </c2project>
