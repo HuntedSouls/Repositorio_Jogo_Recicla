@@ -29,30 +29,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Next" uid="53">
-                    <properties>
-                        <type>Button</type>
-                        <text>Next</text>
-                        <tooltip></tooltip>
-                        <initial-visibility>Visible</initial-visibility>
-                        <enabled>Yes</enabled>
-                        <auto-font-size>Yes</auto-font-size>
-                        <id-optional></id-optional>
-                        <checked>No</checked>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>272</x>
-                        <y>452</y>
-                        <z>0</z>
-                        <width>72</width>
-                        <height>24</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                    </world>
-                </instance>
                 <instance type="HowToTexts" uid="54">
                     <properties>
                         <text></text>
@@ -91,7 +67,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>246</x>
-                        <y>145</y>
+                        <y>177</y>
                         <z>0</z>
                         <width>50</width>
                         <height>35</height>
@@ -113,7 +89,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>304</x>
-                        <y>144</y>
+                        <y>176</y>
                         <z>0</z>
                         <width>50</width>
                         <height>35</height>
@@ -142,8 +118,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>249</x>
-                        <y>182</y>
+                        <x>246</x>
+                        <y>214</y>
                         <z>0</z>
                         <width>50</width>
                         <height>35</height>
@@ -172,14 +148,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>302</x>
-                        <y>179</y>
+                        <x>304</x>
+                        <y>214</y>
                         <z>0</z>
                         <width>50</width>
                         <height>35</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.485714287</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="botao_proximo" uid="51">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>295.999481201</x>
+                        <y>455.346313477</y>
+                        <z>0</z>
+                        <width>115</width>
+                        <height>37</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504347801</hotspotX>
+                        <hotspotY>0.513513505</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

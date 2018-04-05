@@ -1,22 +1,23 @@
-Como jogar:
-O jogo comeÁa na fase de coleta que consiste
+ÔªøComo jogar:
+
+O jogo come√ßa na fase de coleta que consiste
 de coletar os saquinhos de lixo que aparecem 
 na tela. Toque-os e arraste-os para suas 
 respectivas lixeiras, cada cor representa 
-um tipo de recurso recicl·vel:
+um tipo de recurso recicl√°vel:
 
 Amarelo = Metal
 Azul = Papel
-Vermelho = Pl·stico
+Vermelho = Pl√°stico
 Verde = Virdo
 
-O saco preto representa lixo n„o recicl·vel,
-que ainda assim precisa ser coletado se n„o
+O saco preto representa lixo n√£o recicl√°vel,
+que ainda assim precisa ser coletado se n√£o
 vira lixo acumulado nas ruas. Ele pode ser
 levado para uma lixeira de qualquer cor.
 
-Todo lixo que chegar a base da tela n„o foi
-coletador e se torna lixo acumulado, vocÍ perde
+Todo lixo que chegar a base da tela n√£o foi
+coletador e se torna lixo acumulado, voc√™ perde
 se o lixo acumulado chegar a 30.
 Esta fase termina quando coletar 20 sacos de lixo
-imaediatamente comeÁa a fase de reciclagem
+imaediatamente come√ßa a fase de reciclagem

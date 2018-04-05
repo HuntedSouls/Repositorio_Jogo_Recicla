@@ -28,7 +28,9 @@
         </event-block>
         <event-block sid="547229305300275">
             <conditions>
-                <condition id="0" name="On clicked" sid="470993274407442" type="Next" />
+                <condition id="17" name="On tap object" sid="470993274407442" type="Touch">
+                    <param id="0" name="Object">botao_voltar</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="646294282378819" type="System">

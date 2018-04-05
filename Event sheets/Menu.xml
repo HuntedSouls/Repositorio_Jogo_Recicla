@@ -5,7 +5,9 @@
     <events>
         <event-block sid="279261374077318">
             <conditions>
-                <condition id="0" name="On clicked" sid="633335155348241" type="HowToPlay" />
+                <condition id="17" name="On tap object" sid="633335155348241" type="Touch">
+                    <param id="0" name="Object">botao_como</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="681653699367595" type="System">
@@ -15,7 +17,9 @@
         </event-block>
         <event-block sid="798699584544215">
             <conditions>
-                <condition id="0" name="On clicked" sid="553836327723032" type="StartGame" />
+                <condition id="17" name="On tap object" sid="553836327723032" type="Touch">
+                    <param id="0" name="Object">botao_comecar</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="763148379656572" type="System">

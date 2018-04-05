@@ -28,7 +28,9 @@
         </event-block>
         <event-block sid="103773496160960">
             <conditions>
-                <condition id="0" name="On clicked" sid="911373815220689" type="Next" />
+                <condition id="17" name="On tap object" sid="911373815220689" type="Touch">
+                    <param id="0" name="Object">botao_proximo</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="419431092061527" type="System">

@@ -628,6 +628,82 @@
             <object-type name="Next" sid="325630533665396">
                 <plugin id="Button" />
             </object-type>
+            <object-type name="botao_comecar" sid="914970731437348">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="393237177398112" speed="5">
+                        <frame duration="1" hotspotX="0.503448" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\botao_comecar.png">
+                            <collision-poly>
+                                <point x="0.0206897" y="0.0833333" />
+                                <point x="0.496552" y="0" />
+                                <point x="0.986207" y="0.0555556" />
+                                <point x="1" y="0.5" />
+                                <point x="0.986207" y="0.944444" />
+                                <point x="0.496552" y="1" />
+                                <point x="0.0206897" y="0.916667" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="botao_como" sid="227144933974861">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="973828519300375" speed="5">
+                        <frame duration="1" hotspotX="0.503448" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\botao_como.png">
+                            <collision-poly>
+                                <point x="0.0206897" y="0.0833333" />
+                                <point x="0.496552" y="0" />
+                                <point x="0.986207" y="0.0555556" />
+                                <point x="1" y="0.5" />
+                                <point x="0.986207" y="0.944444" />
+                                <point x="0.496552" y="1" />
+                                <point x="0.0206897" y="0.916667" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="botao_proximo" sid="794246544666891">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="538119535758304" speed="5">
+                        <frame duration="1" hotspotX="0.504348" hotspotY="0.513514" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\botao_proximo_1.png">
+                            <collision-poly>
+                                <point x="0.026087" y="0.0810811" />
+                                <point x="0.495652" y="0.027027" />
+                                <point x="0.973913" y="0.0810811" />
+                                <point x="1" y="0.486486" />
+                                <point x="0.973913" y="0.918919" />
+                                <point x="0.495652" y="1" />
+                                <point x="0.0173913" y="0.945946" />
+                                <point x="0" y="0.486486" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="botao_voltar" sid="930045826190789">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="697121684988256" speed="5">
+                        <frame duration="1" hotspotX="0.504348" hotspotY="0.513514" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\botao_voltar_1.png">
+                            <collision-poly>
+                                <point x="0.026087" y="0.0810811" />
+                                <point x="0.495652" y="0" />
+                                <point x="0.973913" y="0.0810811" />
+                                <point x="1" y="0.486486" />
+                                <point x="0.973913" y="0.918919" />
+                                <point x="0.495652" y="1" />
+                                <point x="0.026087" y="0.918919" />
+                                <point x="0" y="0.486486" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="System">
             <object-type name="Mouse" sid="687186569517123">
@@ -838,6 +914,21 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-type name="Sprite" sid="443501094598840">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="510375819370469" speed="5">
+                    <frame duration="1" hotspotX="0.501385" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\background-menu_3.png">
+                        <collision-poly>
+                            <point x="0.00273973" y="0.002079" />
+                            <point x="0.99726" y="0.002079" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Caçambas" plugin-id="Sprite" sid="316778183460846">
