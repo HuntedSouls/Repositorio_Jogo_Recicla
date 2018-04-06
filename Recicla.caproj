@@ -562,6 +562,11 @@
                 <instance-variables>
                     <instance-variable comment="Conta os incrementos de sujeira!" name="IncrementoSujeira" sid="178049125606158" type="number" />
                 </instance-variables>
+                <behaviors>
+                    <behavior-type name="Persist" sid="820963429529812">
+                        <behavior id="Persist" />
+                    </behavior-type>
+                </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="682780278770926" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="C:\Users\joshuakirtz\Downloads\background-grama-100x35.png" />
