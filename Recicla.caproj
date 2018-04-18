@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
@@ -729,6 +730,9 @@
             <object-type name="FileGetter" sid="132253627316850">
                 <plugin id="AJAX" />
             </object-type>
+            <object-type name="Audio" sid="960291352318226">
+                <plugin id="Audio" />
+            </object-type>
         </object-folder>
         <object-folder name="TExts">
             <object-type name="QuantiaVidro" sid="680348065890347">
@@ -1059,8 +1063,27 @@
             </properties>
         </global-instance>
         <global-instance type="FileGetter" uid="55" />
+        <global-instance type="Audio" uid="23">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="Thud_sound.m4a" />
+        <file name="Thud_sound.ogg" />
+        <file name="Plimplim.m4a" />
+        <file name="Plimplim.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">

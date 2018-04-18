@@ -131,6 +131,12 @@
                         <action id="-16" name="Set opacity" sid="802795934319818" type="Reciclaveis">
                             <param id="0" name="Opacity">50</param>
                         </action>
+                        <action id="0" name="Play" sid="334743214286238" type="Audio">
+                            <param id="0" name="Audio file">Plimplim</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -203,6 +209,12 @@
                         </action>
                         <action id="-16" name="Set opacity" sid="753898753747315" type="Projetos">
                             <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="0" name="Play" sid="589611672067168" type="Audio">
+                            <param id="0" name="Audio file">Plimplim</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>

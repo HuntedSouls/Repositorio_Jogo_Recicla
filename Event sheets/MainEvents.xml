@@ -46,6 +46,45 @@
                             <param id="0" name="Instance variable">Conta_Plastico</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="313138827793484" type="Audio">
+                            <param id="0" name="Audio file">Thud_sound</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="856029896456733" type="Caçamba_Plastico">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="218159506812753" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="267884754958019" type="Caçamba_Plastico">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="782413439404710" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="551979152045452" type="Caçamba_Plastico">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="748493950658129" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="365331306183699" type="Caçamba_Plastico">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="363768901985201" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="248945399188893" type="Caçamba_Plastico">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="618205548412514" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="634397406675903" type="Caçamba_Plastico">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="786319601549569">
@@ -66,6 +105,45 @@
                         <action id="-11" name="Add to" sid="814842585883494" type="Caçamba_Metal">
                             <param id="0" name="Instance variable">ContaMetal</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="619617374442893" type="Audio">
+                            <param id="0" name="Audio file">Thud_sound</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="724691881683395" type="Caçamba_Metal">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="101400955618674" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="968519263662742" type="Caçamba_Metal">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="126798832071721" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="121904664943974" type="Caçamba_Metal">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="469446533438349" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="743552217632591" type="Caçamba_Metal">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="912185833892184" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="908359186579074" type="Caçamba_Metal">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="297994844229184" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="313313793551743" type="Caçamba_Metal">
+                            <param id="0" name="Opacity">100</param>
                         </action>
                     </actions>
                 </event-block>
@@ -88,6 +166,45 @@
                             <param id="0" name="Instance variable">ContaPapel</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="134775834912201" type="Audio">
+                            <param id="0" name="Audio file">Thud_sound</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="248692408191944" type="Caçamba_Papel">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="687315888662446" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="115356015822466" type="Caçamba_Papel">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="463444526685986" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="544808703918784" type="Caçamba_Papel">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="239220042761999" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="200858009285492" type="Caçamba_Papel">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="170793393138202" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="407350914041940" type="Caçamba_Papel">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="927462918730858" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="246913995631970" type="Caçamba_Papel">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="202499608646231">
@@ -109,6 +226,45 @@
                             <param id="0" name="Instance variable">ContaVidro</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="251569815357188" type="Audio">
+                            <param id="0" name="Audio file">Thud_sound</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="296190688147461" type="Caçamba_Vidro">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="148562813848635" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="877850986140962" type="Caçamba_Vidro">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="197027890287992" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="755770229028598" type="Caçamba_Vidro">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="762187653576501" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="556114336039233" type="Caçamba_Vidro">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="844041765390875" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="528303961794322" type="Caçamba_Vidro">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="418750049462064" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="423922986581706" type="Caçamba_Vidro">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="559067028427350">
@@ -125,6 +281,12 @@
                         </action>
                         <action id="0" name="Set text" sid="181465109817959" type="ContadorCaçamba">
                             <param id="0" name="Text">&quot;Lixo: &quot; &amp; ContadorCaçamba.ContadorLixo</param>
+                        </action>
+                        <action id="0" name="Play" sid="896604129721577" type="Audio">
+                            <param id="0" name="Audio file">Thud_sound</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
