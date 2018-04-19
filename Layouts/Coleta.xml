@@ -82,7 +82,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>2.048919678</x>
-                        <y>140.441314697</y>
+                        <y>102.441314697</y>
                         <z>0</z>
                         <width>81</width>
                         <height>68</height>
@@ -107,7 +107,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3.048919678</x>
-                        <y>206.441314697</y>
+                        <y>168.441314697</y>
                         <z>0</z>
                         <width>81</width>
                         <height>69</height>
@@ -132,7 +132,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3.048919678</x>
-                        <y>272.441314697</y>
+                        <y>234.441314697</y>
                         <z>0</z>
                         <width>81</width>
                         <height>69</height>
@@ -157,7 +157,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>4.048919678</x>
-                        <y>337.441345215</y>
+                        <y>299.441345215</y>
                         <z>0</z>
                         <width>81</width>
                         <height>68</height>
@@ -211,14 +211,39 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2</x>
-                        <y>46</y>
+                        <x>8.682258606</x>
+                        <y>32.366119385</y>
                         <z>0</z>
                         <width>90.034912109</width>
                         <height>30</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Caçamba_Organico" uid="60">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <ContaOrganico>0</ContaOrganico>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>3.440872192</x>
+                        <y>367.380218506</y>
+                        <z>0</z>
+                        <width>82</width>
+                        <height>69</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.507246375</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -260,7 +285,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2</x>
+                        <x>8</x>
                         <y>8</y>
                         <z>0</z>
                         <width>68.17855835</width>

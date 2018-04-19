@@ -13,8 +13,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">Coleta</layout>
         <layout order="2">Projetos</layout>
         <layout order="4">TrashOne</layout>
+        <layout order="6">HowToPlay1</layout>
+        <layout order="7">HowToPlay2</layout>
+        <layout active="1" order="8">MenuPrincipal</layout>
         <event-sheet order="1">MainEvents</event-sheet>
-        <event-sheet active="1" order="3">ProjetosEvents</event-sheet>
+        <event-sheet order="3">ProjetosEvents</event-sheet>
+        <event-sheet order="5">HowToPlay2</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -33,16 +37,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/Reciclaveis/" />
-        <folder expanded="0" path="object-folder/caçambas/" />
-        <folder expanded="0" path="object-folder/lixinhos/" />
+        <folder expanded="1" path="object-folder/caçambas/" />
+        <folder expanded="1" path="object-folder/lixinhos/" />
         <folder expanded="0" path="object-folder/othervisual/" />
-        <folder expanded="1" path="object-folder/System/" />
+        <folder expanded="0" path="object-folder/System/" />
         <folder expanded="0" path="object-folder/TExts/" />
         <folder expanded="0" path="object-folder/Projetos/" />
         <folder expanded="0" path="object-folder/ProjetosZoom/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
@@ -62,7 +66,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Caçamba_Papel/" />
         <folder expanded="1" path="animation-folder/Caçamba_Vidro/" />
         <folder expanded="1" path="animation-folder/Caçamba_Plastico/" />
-        <folder expanded="1" path="animation-folder/Lixo/" />
+        <folder expanded="1" path="animation-folder/Caçamba_Organico/" />
+        <folder expanded="1" path="animation-folder/Organico/" />
         <folder expanded="1" path="animation-folder/Papel/" />
         <folder expanded="1" path="animation-folder/Metal/" />
         <folder expanded="1" path="animation-folder/Plastico/" />
@@ -71,7 +76,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Papel2/" />
         <folder expanded="1" path="animation-folder/Plastico2/" />
         <folder expanded="1" path="animation-folder/Vidro2/" />
-        <folder expanded="1" path="animation-folder/Lixo2/" />
+        <folder expanded="1" path="animation-folder/Organico2/" />
         <folder expanded="1" path="animation-folder/SujeiraAcumulada/" />
         <folder expanded="1" path="animation-folder/BackgroundProjetos/" />
         <folder expanded="1" path="animation-folder/botao_concluir/" />

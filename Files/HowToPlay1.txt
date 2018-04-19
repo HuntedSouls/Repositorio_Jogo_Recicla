@@ -9,12 +9,8 @@ um tipo de recurso reciclável:
 Amarelo = Metal
 Azul = Papel
 Vermelho = Plástico
-Verde = Virdo
-
-O saco preto representa lixo não reciclável,
-que ainda assim precisa ser coletado se não
-vira lixo acumulado nas ruas. Ele pode ser
-levado para uma lixeira de qualquer cor.
+Verde = Vidro
+Preto = Lixo Orgânico
 
 Todo lixo que chegar a base da tela não foi
 coletador e se torna lixo acumulado, você perde

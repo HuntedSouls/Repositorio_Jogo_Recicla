@@ -340,9 +340,29 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Caçamba_Organico" sid="808352106583296">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Conta quantos lixos organicos foram adquiridos" name="ContaOrganico" sid="146901427997373" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="994175277979853" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.507246" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\cacamba-preta.png">
+                            <collision-poly>
+                                <point x="0.0243902" y="0.0289855" />
+                                <point x="0.5" y="0" />
+                                <point x="0.97561" y="0.0289855" />
+                                <point x="0.963415" y="0.956522" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0365854" y="0.956522" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="lixinhos">
-            <object-type name="Lixo" sid="589432436480140">
+            <object-type name="Organico" sid="589432436480140">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="373016188475139" speed="5">
@@ -533,7 +553,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Lixo2" sid="204841387105491">
+            <object-type name="Organico2" sid="204841387105491">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="248512899892038" speed="5">
@@ -943,6 +963,7 @@
         <family name="Caçambas" plugin-id="Sprite" sid="316778183460846">
             <members>
                 <member>Caçamba_Metal</member>
+                <member>Caçamba_Organico</member>
                 <member>Caçamba_Papel</member>
                 <member>Caçamba_Plastico</member>
                 <member>Caçamba_Vidro</member>
@@ -950,8 +971,8 @@
         </family>
         <family name="Lixos" plugin-id="Sprite" sid="602575539372614">
             <members>
-                <member>Lixo</member>
                 <member>Metal</member>
+                <member>Organico</member>
                 <member>Papel</member>
                 <member>Plastico</member>
                 <member>Vidro</member>

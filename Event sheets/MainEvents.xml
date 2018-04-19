@@ -269,12 +269,12 @@
                 </event-block>
                 <event-block sid="559067028427350">
                     <conditions>
-                        <condition id="1" name="Is overlapping another object" sid="861954029815000" type="Lixo">
-                            <param id="0" name="Object">Caçambas</param>
+                        <condition id="1" name="Is overlapping another object" sid="861954029815000" type="Organico">
+                            <param id="0" name="Object">Caçamba_Organico</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="510279740168479" type="Lixo" />
+                        <action id="-9" name="Destroy" sid="510279740168479" type="Organico" />
                         <action id="-11" name="Add to" sid="231382159960582" type="ContadorCaçamba">
                             <param id="0" name="Instance variable">ContadorLixo</param>
                             <param id="1" name="Value">1</param>
@@ -282,11 +282,48 @@
                         <action id="0" name="Set text" sid="181465109817959" type="ContadorCaçamba">
                             <param id="0" name="Text">&quot;Lixo: &quot; &amp; ContadorCaçamba.ContadorLixo</param>
                         </action>
+                        <action id="-11" name="Add to" sid="325493976747508" type="Caçamba_Organico">
+                            <param id="0" name="Instance variable">ContaOrganico</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                         <action id="0" name="Play" sid="896604129721577" type="Audio">
                             <param id="0" name="Audio file">Thud_sound</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="706856100399005" type="Caçamba_Organico">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="838306862271651" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="237729674462282" type="Caçamba_Organico">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="843324032496337" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="636676877057245" type="Caçamba_Organico">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="232871821285511" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="592464554102392" type="Caçamba_Organico">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="118285320923637" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="343655722749846" type="Caçamba_Organico">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="358017391574734" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="932570246777501" type="Caçamba_Organico">
+                            <param id="0" name="Opacity">100</param>
                         </action>
                     </actions>
                 </event-block>
