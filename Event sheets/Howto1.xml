@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Howto1</name>
+    <events>
+        <event-block sid="694431420691307">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="940244166851500" type="System" />
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="276224182489705" type="System">
+                    <param id="0" name="Group name">&quot;Tela2&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="256191849189831" type="System">
+                    <param id="0" name="Group name">&quot;Tela3&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="502906814002438" type="System">
+                    <param id="0" name="Group name">&quot;Tela4&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="649129866071169" title="Tela1">
+            <sub-events>
+                <event-block sid="240537944711614">
+                    <conditions>
+                        <condition id="14" name="On tap" sid="191314373471855" type="Touch" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="467378729921904" type="Metal2">
+                            <param id="0" name="X">270</param>
+                            <param id="1" name="Y">90</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="537103886660250" type="Pointer">
+                            <param id="0" name="X">230</param>
+                            <param id="1" name="Y">100</param>
+                        </action>
+                        <action id="0" name="Set text" sid="970527656628495" type="HowToTExt">
+                            <param id="0" name="Text">&quot;Sacos de lixo como esse irão cair pela tela, Segure-os e os arraste para a caçamba de mesma cor! Afinal o objetivo da coleta seletiva é separar os diversos tipos de lixos recicláveis.&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="989323580598416" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="938780501641255" type="System">
+                            <param id="0" name="Object to create">Pointer</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">60</param>
+                            <param id="3" name="Y">110</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="983840388978319" type="Pointer">
+                            <param id="0" name="Width">30</param>
+                            <param id="1" name="Height">30</param>
+                        </action>
+                        <action id="7" name="Set mirrored" sid="448246852217831" type="Pointer">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="128419923341164" type="System">
+                            <param id="0" name="Group name">&quot;Tela2&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="804834311633601" type="System">
+                            <param id="0" name="Group name">&quot;Tela1&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="721057147401147" title="Tela2">
+            <sub-events>
+                <event-block sid="610931377058841">
+                    <conditions>
+                        <condition id="14" name="On tap" sid="672844585560870" type="Touch" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="228050626753496" type="Pointer" />
+                        <action id="-9" name="Destroy" sid="534711275084338" type="Metal2" />
+                        <action id="-3" name="Set position" sid="717799808586911" type="Organico2">
+                            <param id="0" name="X">210</param>
+                            <param id="1" name="Y">320</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="298045006207778" type="System">
+                            <param id="0" name="Object to create">Pointer</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">170</param>
+                            <param id="3" name="Y">330</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="377075334771830" type="Pointer">
+                            <param id="0" name="Width">30</param>
+                            <param id="1" name="Height">30</param>
+                        </action>
+                        <action id="0" name="Set text" sid="798624891991490" type="HowToTExt">
+                            <param id="0" name="Text">&quot;Porém mesmo o lixo que não é reciclável tem de ser retirado das ruas! Então também apareceram sacos de lixo pretos, como este, que tem de ser coletados na caçamba correta para não se misturar com os recicláveis, mas que por não ser reciclável não poderá ser usado nas reciclagens da segunda etapa.&quot;</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="514388590388744" type="System">
+                            <param id="0" name="Group name">&quot;Tela3&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="623878659372173" type="System">
+                            <param id="0" name="Group name">&quot;Tela2&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="421633362189675" title="Tela3">
+            <sub-events>
+                <event-block sid="606428964019355">
+                    <conditions>
+                        <condition id="14" name="On tap" sid="747829751399721" type="Touch" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="767422043577196" type="Pointer" />
+                        <action id="-9" name="Destroy" sid="816148758361981" type="Organico2" />
+                        <action id="-3" name="Create object" sid="176016459247349" type="System">
+                            <param id="0" name="Object to create">Pointer</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">130</param>
+                            <param id="3" name="Y">410</param>
+                        </action>
+                        <action id="-8" name="Set angle" sid="714934274010912" type="Pointer">
+                            <param id="0" name="Angle">90</param>
+                        </action>
+                        <action id="0" name="Set text" sid="773202866550014" type="HowToTExt">
+                            <param id="0" name="Text">&quot;Este é o acumulo de sujeira nas ruas. Toda vez que um lixo não é coletado e cai na sujeira ele vai acumulando e vai subindo, fazendo com que seja mais difícil de coletar o lixo. Não deixe o lixo acumular nas ruas! se por acaso acumular um total de 30 lixos você PERDE!&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="341045783975362" title="Tela4">
+            <sub-events>
+                <event-block sid="670404113157646">
+                    <conditions>
+                        <condition id="14" name="On tap" sid="821564764763024" type="Touch" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="736966650288274" type="System">
+                            <param id="0" name="Layout">Howto2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

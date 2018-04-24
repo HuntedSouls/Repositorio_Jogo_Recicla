@@ -730,6 +730,24 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Pointer" sid="851421383899549">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="531634711054083" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Home\Documents\Resources\Icons\hand-o-pointer.png">
+                            <collision-poly>
+                                <point x="0.789063" y="0.210938" />
+                                <point x="0.703125" y="0.703125" />
+                                <point x="0.5" y="0.929688" />
+                                <point x="0.125" y="0.875" />
+                                <point x="0" y="0.5" />
+                                <point x="0.164063" y="0.164063" />
+                                <point x="0.5" y="0.015625" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="System">
             <object-type name="Mouse" sid="687186569517123">
@@ -792,6 +810,9 @@
                 <plugin id="Text" />
             </object-type>
             <object-type name="HowToTexts" sid="147546011095449">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="HowToTExt" sid="882368201360854">
                 <plugin id="Text" />
             </object-type>
         </object-folder>
@@ -1062,7 +1083,9 @@
     </families>
     <layout-folder>
         <layout>Coleta.xml</layout>
+        <layout>Howto1.xml</layout>
         <layout>Projetos.xml</layout>
+        <layout>Howto2.xml</layout>
         <layout>TrashOne.xml</layout>
         <layout>MenuPrincipal.xml</layout>
         <layout>HowToPlay1.xml</layout>
@@ -1074,6 +1097,8 @@
         <event-sheet>Menu.xml</event-sheet>
         <event-sheet>HowToPlay1.xml</event-sheet>
         <event-sheet>HowToPlay2.xml</event-sheet>
+        <event-sheet>Howto1.xml</event-sheet>
+        <event-sheet>Howto2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="24" />
