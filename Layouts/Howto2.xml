@@ -649,13 +649,35 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>30.927490234</x>
+                        <x>60.927490234</x>
                         <y>375.410980225</y>
                         <z>0</z>
                         <width>60</width>
                         <height>90</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="balao_how_hor" uid="75">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>122.118255615</x>
+                        <y>405.571136475</y>
+                        <z>0</z>
+                        <width>248.508102417</width>
+                        <height>166.166595459</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50447762</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

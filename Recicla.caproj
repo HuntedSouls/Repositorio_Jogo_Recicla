@@ -748,6 +748,60 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="balao_how_hor" sid="751743152030992">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="126857755873764" speed="5">
+                        <frame duration="1" hotspotX="0.504478" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\balao_horizontal_6.png">
+                            <collision-poly>
+                                <point x="0.03" y="0.0321429" />
+                                <point x="0.5" y="0" />
+                                <point x="0.97" y="0.0321429" />
+                                <point x="1" y="0.5" />
+                                <point x="0.816667" y="0.803571" />
+                                <point x="0.183333" y="0.803571" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="balao_how_vert" sid="812672470882612">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="559971242182057" speed="5">
+                        <frame duration="1" hotspotX="0.508834" hotspotY="0.50566" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\balao_vertical_6.png">
+                            <collision-poly>
+                                <point x="0.0299003" y="0.0299003" />
+                                <point x="0.498339" y="0" />
+                                <point x="0.9701" y="0.0299003" />
+                                <point x="1" y="0.498339" />
+                                <point x="0.883721" y="0.883721" />
+                                <point x="0.116279" y="0.883721" />
+                                <point x="0" y="0.498339" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="balao_ho_hor_2" sid="580740773278679">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="972395207154582" speed="5">
+                        <frame duration="1" hotspotX="0.501538" hotspotY="0.5" original-source="D:\Mestrado\3 - Terceiro Período\Jogos II\images\balao_horizontal_2_2.png">
+                            <collision-poly>
+                                <point x="0.0327381" y="0.0385965" />
+                                <point x="0.5" y="0" />
+                                <point x="0.970238" y="0.0350877" />
+                                <point x="0.997024" y="0.498246" />
+                                <point x="0.880952" y="0.859649" />
+                                <point x="0.119048" y="0.859649" />
+                                <point x="0.0119048" y="0.498246" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="System">
             <object-type name="Mouse" sid="687186569517123">
