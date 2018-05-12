@@ -78,11 +78,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>206.833786011</x>
-                        <y>241.049514771</y>
+                        <x>202.315582275</x>
+                        <y>225.853118896</y>
                         <z>0</z>
-                        <width>286.963531494</width>
-                        <height>253.772033691</height>
+                        <width>278.084014893</width>
+                        <height>223.719512939</height>
                         <depth>0</depth>
                         <hotspotX>0.508833945</hotspotX>
                         <hotspotY>0.505660355</hotspotY>
@@ -389,6 +389,28 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="balao_ho_hor_2" uid="102">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-279.826690674</x>
+                        <y>94.394752502</y>
+                        <z>0</z>
+                        <width>221.864990234</width>
+                        <height>176.084365845</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501538455</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

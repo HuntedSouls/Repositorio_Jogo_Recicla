@@ -40,6 +40,17 @@
                         <action id="0" name="Set text" sid="970527656628495" type="HowToTExt">
                             <param id="0" name="Text">&quot;Sacos de lixo como esse irão cair pela tela, Segure-os e os arraste para a caçamba de mesma cor! Afinal o objetivo da coleta seletiva é separar os diversos tipos de lixos recicláveis.&quot;</param>
                         </action>
+                        <action id="-3" name="Create object" sid="882624861862322" type="System">
+                            <param id="0" name="Object to create">balao_ho_hor_2</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">200</param>
+                            <param id="3" name="Y">210</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="290682649277462" type="balao_ho_hor_2">
+                            <param id="0" name="Width">280</param>
+                            <param id="1" name="Height">180</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="383121592717529" type="balao_how_vert" />
                         <action id="-16" name="Wait" sid="989323580598416" type="System">
                             <param id="0" name="Seconds">1.0</param>
                         </action>
@@ -79,13 +90,13 @@
                         <action id="-9" name="Destroy" sid="534711275084338" type="Metal2" />
                         <action id="-3" name="Set position" sid="717799808586911" type="Organico2">
                             <param id="0" name="X">210</param>
-                            <param id="1" name="Y">320</param>
+                            <param id="1" name="Y">390</param>
                         </action>
                         <action id="-3" name="Create object" sid="298045006207778" type="System">
                             <param id="0" name="Object to create">Pointer</param>
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="X">170</param>
-                            <param id="3" name="Y">330</param>
+                            <param id="3" name="Y">390</param>
                         </action>
                         <action id="-7" name="Set size" sid="377075334771830" type="Pointer">
                             <param id="0" name="Width">30</param>
@@ -93,6 +104,20 @@
                         </action>
                         <action id="0" name="Set text" sid="798624891991490" type="HowToTExt">
                             <param id="0" name="Text">&quot;Porém mesmo o lixo que não é reciclável tem de ser retirado das ruas! Então também apareceram sacos de lixo pretos, como este, que tem de ser coletados na caçamba correta para não se misturar com os recicláveis, mas que por não ser reciclável não poderá ser usado nas reciclagens da segunda etapa.&quot;</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="376398106907832" type="System">
+                            <param id="0" name="Object to create">balao_how_vert</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">200</param>
+                            <param id="3" name="Y">255</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="833419140482692" type="balao_ho_hor_2" />
+                        <action id="-7" name="Set size" sid="529583589913143" type="balao_how_vert">
+                            <param id="0" name="Width">280</param>
+                            <param id="1" name="Height">270</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="920291850329091" type="System">
+                            <param id="0" name="Seconds">1</param>
                         </action>
                         <action id="-12" name="Set group active" sid="514388590388744" type="System">
                             <param id="0" name="Group name">&quot;Tela3&quot;</param>
@@ -126,6 +151,28 @@
                         </action>
                         <action id="0" name="Set text" sid="773202866550014" type="HowToTExt">
                             <param id="0" name="Text">&quot;Este é o acumulo de sujeira nas ruas. Toda vez que um lixo não é coletado e cai na sujeira ele vai acumulando e vai subindo, fazendo com que seja mais difícil de coletar o lixo. Não deixe o lixo acumular nas ruas! se por acaso acumular um total de 30 lixos você PERDE!&quot;</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="841819876776869" type="System">
+                            <param id="0" name="Object to create">balao_ho_hor_2</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">200</param>
+                            <param id="3" name="Y">240</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="858667278973120" type="balao_how_vert" />
+                        <action id="-7" name="Set size" sid="860805632557419" type="balao_ho_hor_2">
+                            <param id="0" name="Width">280</param>
+                            <param id="1" name="Height">250</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="818018005973920" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="799257538134645" type="System">
+                            <param id="0" name="Group name">&quot;Tela4&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="477309228566250" type="System">
+                            <param id="0" name="Group name">&quot;Tela3&quot;</param>
+                            <param id="1" name="State">0</param>
                         </action>
                     </actions>
                 </event-block>
