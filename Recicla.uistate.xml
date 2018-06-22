@@ -17,9 +17,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="6">Howto1</layout>
         <layout order="8">Howto2</layout>
         <event-sheet order="1">MainEvents</event-sheet>
-        <event-sheet order="3">ProjetosEvents</event-sheet>
+        <event-sheet active="1" order="3">ProjetosEvents</event-sheet>
         <event-sheet order="7">Howto1</event-sheet>
-        <event-sheet active="1" order="9">Howto2</event-sheet>
+        <event-sheet order="9">Howto2</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -39,12 +39,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/Reciclaveis/" />
         <folder expanded="0" path="object-folder/caçambas/" />
-        <folder expanded="1" path="object-folder/lixinhos/" />
+        <folder expanded="0" path="object-folder/lixinhos/" />
         <folder expanded="0" path="object-folder/othervisual/" />
         <folder expanded="0" path="object-folder/System/" />
-        <folder expanded="1" path="object-folder/TExts/" />
+        <folder expanded="0" path="object-folder/TExts/" />
         <folder expanded="0" path="object-folder/Projetos/" />
         <folder expanded="0" path="object-folder/ProjetosZoom/" />
+        <folder expanded="1" path="object-folder/ProjetosUI/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />

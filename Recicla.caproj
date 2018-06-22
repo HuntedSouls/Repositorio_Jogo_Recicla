@@ -8,7 +8,7 @@
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>1yufxrknvjj16</unique-id>
-    <saved-with-version>25500</saved-with-version>
+    <saved-with-version>25900</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
@@ -1016,6 +1016,47 @@
                         </frame>
                     </animation>
                 </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="ProjetosUI">
+            <object-type name="ganhaRecurso" sid="184905568105553">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="Troca" sid="857315800576514">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="lookpick" sid="245848431202049">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="DescartaRecurso" sid="739006995690611">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="AcumulaMenos" sid="943494849882995">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="AcumulaTipo" sid="441552499203199">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="1p2" sid="701995740932478">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="1p1" sid="593871187115598">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="estocar" sid="909519472508981">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="Construir" sid="764534960958457">
+                <plugin id="Button" />
+            </object-type>
+            <object-type name="ContaAcumulo" sid="541961830132407">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable name="ContaAcumulo" sid="628058828798730" type="number" />
+                </instance-variables>
+            </object-type>
+            <object-type name="Info" sid="294887376768258">
+                <plugin id="Text" />
             </object-type>
         </object-folder>
         <object-type name="Sprite" sid="443501094598840">

@@ -518,6 +518,61 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <event-block sid="815533956347285">
+            <conditions>
+                <condition id="0" name="On clicked" sid="908977439808703" type="ganhaRecurso" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="723611185130353" type="System">
+                    <param id="0" name="Object to create">TiledBackground</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">0</param>
+                    <param id="3" name="Y">0</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="140541553956273" type="TiledBackground">
+                    <param id="0" name="Opacity">75</param>
+                </action>
+                <action id="-3" name="Create object" sid="744799119869824" type="System">
+                    <param id="0" name="Object to create">Caçamba_Metal</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">50</param>
+                    <param id="3" name="Y">50</param>
+                </action>
+                <action id="-3" name="Create object" sid="973188221034093" type="System">
+                    <param id="0" name="Object to create">Caçamba_Papel</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">250</param>
+                    <param id="3" name="Y">50</param>
+                </action>
+                <action id="-3" name="Create object" sid="290278528407852" type="System">
+                    <param id="0" name="Object to create">Caçamba_Plastico</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">50</param>
+                    <param id="3" name="Y">250</param>
+                </action>
+                <action id="-3" name="Create object" sid="785628338781261" type="System">
+                    <param id="0" name="Object to create">Caçamba_Metal</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">250</param>
+                    <param id="3" name="Y">250</param>
+                </action>
+                <action id="-3" name="Create object" sid="452460100676051" type="System">
+                    <param id="0" name="Object to create">fechar_zoom</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">150</param>
+                    <param id="3" name="Y">380</param>
+                </action>
+                <action id="-3" name="Create object" sid="805440382026180" type="System">
+                    <param id="0" name="Object to create">Info</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">50</param>
+                    <param id="3" name="Y">300</param>
+                </action>
+                <action id="0" name="Set text" sid="922316034541932" type="Info">
+                    <param id="0" name="Text">&quot;Clique na caçamba da cor do recurso que quer adquirir. Para cancelar clique no X abaixo&quot;</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="272000671940421">
             <conditions>
                 <condition id="17" name="On tap object" sid="248473430561752" type="Touch">
@@ -674,6 +729,18 @@
                 <action id="-9" name="Destroy" sid="655957922777189" type="TiledBackground" />
                 <action id="-9" name="Destroy" sid="828404713316653" type="Projetos_Zoom" />
                 <action id="-9" name="Destroy" sid="624650685167418" type="fechar_zoom" />
+            </actions>
+        </event-block>
+        <event-block sid="215322035714062">
+            <conditions>
+                <condition id="17" name="On tap object" sid="277044535296642" type="Touch">
+                    <param id="0" name="Object">fechar_zoom</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="940940599883130" type="TiledBackground" />
+                <action id="-9" name="Destroy" sid="755638342730044" type="Projetos_Zoom" />
+                <action id="-9" name="Destroy" sid="790807605523499" type="fechar_zoom" />
             </actions>
         </event-block>
         <event-block sid="289166979485934">
