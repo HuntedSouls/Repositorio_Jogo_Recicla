@@ -8,7 +8,7 @@
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>1yufxrknvjj16</unique-id>
-    <saved-with-version>25900</saved-with-version>
+    <saved-with-version>26200</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
@@ -869,6 +869,12 @@
             <object-type name="HowToTExt" sid="882368201360854">
                 <plugin id="Text" />
             </object-type>
+            <object-type name="loss" sid="363541679757869">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Gain" sid="850455519113550">
+                <plugin id="Text" />
+            </object-type>
         </object-folder>
         <object-folder name="Projetos">
             <object-type name="projeto_1" sid="482760991583321">
@@ -1019,31 +1025,7 @@
             </object-type>
         </object-folder>
         <object-folder name="ProjetosUI">
-            <object-type name="ganhaRecurso" sid="184905568105553">
-                <plugin id="Button" />
-            </object-type>
-            <object-type name="Troca" sid="857315800576514">
-                <plugin id="Button" />
-            </object-type>
             <object-type name="lookpick" sid="245848431202049">
-                <plugin id="Button" />
-            </object-type>
-            <object-type name="DescartaRecurso" sid="739006995690611">
-                <plugin id="Button" />
-            </object-type>
-            <object-type name="AcumulaMenos" sid="943494849882995">
-                <plugin id="Button" />
-            </object-type>
-            <object-type name="AcumulaTipo" sid="441552499203199">
-                <plugin id="Button" />
-            </object-type>
-            <object-type name="1p2" sid="701995740932478">
-                <plugin id="Button" />
-            </object-type>
-            <object-type name="1p1" sid="593871187115598">
-                <plugin id="Button" />
-            </object-type>
-            <object-type name="estocar" sid="909519472508981">
                 <plugin id="Button" />
             </object-type>
             <object-type name="Construir" sid="764534960958457">
@@ -1073,6 +1055,30 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="MetalGain" sid="734938663848148">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="PapelGain" sid="169090051335536">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="PlasticoGAin" sid="524856486313829">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="VidroGain" sid="111788070481868">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="MetalLoss" sid="660520209927015">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="PapelLoss" sid="898591845604610">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="PlasticoLoss" sid="787266622291524">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="VidroLoss" sid="462292859586182">
+            <plugin id="Button" />
         </object-type>
     </object-folder>
     <families>

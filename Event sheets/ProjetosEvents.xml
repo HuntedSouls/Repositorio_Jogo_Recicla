@@ -9,32 +9,7 @@
             <conditions>
                 <condition id="-2" name="On start of layout" sid="702745724755858" type="System" />
             </conditions>
-            <actions>
-                <action id="-3" name="Create object" sid="127032076933018" type="System">
-                    <param id="0" name="Object to create">Reciclaveis</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">60</param>
-                    <param id="3" name="Y">260</param>
-                </action>
-                <action id="-3" name="Create object" sid="135667760389059" type="System">
-                    <param id="0" name="Object to create">Reciclaveis</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">140</param>
-                    <param id="3" name="Y">260</param>
-                </action>
-                <action id="-3" name="Create object" sid="340157416630486" type="System">
-                    <param id="0" name="Object to create">Reciclaveis</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">220</param>
-                    <param id="3" name="Y">260</param>
-                </action>
-                <action id="-3" name="Create object" sid="135035016779433" type="System">
-                    <param id="0" name="Object to create">Reciclaveis</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">300</param>
-                    <param id="3" name="Y">260</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
         <event-block sid="152251834927562">
             <conditions>
@@ -518,94 +493,161 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="815533956347285">
+        <event-block sid="525932312136916">
             <conditions>
-                <condition id="0" name="On clicked" sid="908977439808703" type="ganhaRecurso" />
+                <condition id="0" name="On function" sid="146051085885659" type="Function">
+                    <param id="0" name="Name">&quot;Sub&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="345466051784422">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="670902966074282" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="254652550102713" type="System">
+                            <param id="0" name="Variable">Metal_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="613694836181811">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="574346377137270" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="870119622723668" type="System">
+                            <param id="0" name="Variable">Papel_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="743492265790075">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="594715867750024" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="737219287271432" type="System">
+                            <param id="0" name="Variable">Plástico_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="111129151514446">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="851228044147329" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="203338651441348" type="System">
+                            <param id="0" name="Variable">Vidro_Total</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="343182524958859">
+            <conditions>
+                <condition id="0" name="On clicked" sid="632301003830585" type="MetalGain" />
             </conditions>
             <actions>
-                <action id="-3" name="Create object" sid="723611185130353" type="System">
-                    <param id="0" name="Object to create">TiledBackground</param>
-                    <param id="1" name="Layer">3</param>
-                    <param id="2" name="X">0</param>
-                    <param id="3" name="Y">0</param>
-                </action>
-                <action id="-16" name="Set opacity" sid="140541553956273" type="TiledBackground">
-                    <param id="0" name="Opacity">75</param>
-                </action>
-                <action id="-3" name="Create object" sid="744799119869824" type="System">
-                    <param id="0" name="Object to create">Caçamba_Metal</param>
-                    <param id="1" name="Layer">3</param>
-                    <param id="2" name="X">50</param>
-                    <param id="3" name="Y">50</param>
-                </action>
-                <action id="-3" name="Create object" sid="973188221034093" type="System">
-                    <param id="0" name="Object to create">Caçamba_Papel</param>
-                    <param id="1" name="Layer">3</param>
-                    <param id="2" name="X">250</param>
-                    <param id="3" name="Y">50</param>
-                </action>
-                <action id="-3" name="Create object" sid="290278528407852" type="System">
-                    <param id="0" name="Object to create">Caçamba_Plastico</param>
-                    <param id="1" name="Layer">3</param>
-                    <param id="2" name="X">50</param>
-                    <param id="3" name="Y">250</param>
-                </action>
-                <action id="-3" name="Create object" sid="785628338781261" type="System">
-                    <param id="0" name="Object to create">Caçamba_Metal</param>
-                    <param id="1" name="Layer">3</param>
-                    <param id="2" name="X">250</param>
-                    <param id="3" name="Y">250</param>
-                </action>
-                <action id="-3" name="Create object" sid="452460100676051" type="System">
-                    <param id="0" name="Object to create">fechar_zoom</param>
-                    <param id="1" name="Layer">3</param>
-                    <param id="2" name="X">150</param>
-                    <param id="3" name="Y">380</param>
-                </action>
-                <action id="-3" name="Create object" sid="805440382026180" type="System">
-                    <param id="0" name="Object to create">Info</param>
-                    <param id="1" name="Layer">3</param>
-                    <param id="2" name="X">50</param>
-                    <param id="3" name="Y">300</param>
-                </action>
-                <action id="0" name="Set text" sid="922316034541932" type="Info">
-                    <param id="0" name="Text">&quot;Clique na caçamba da cor do recurso que quer adquirir. Para cancelar clique no X abaixo&quot;</param>
+                <action id="0" name="Call function" sid="656860966452204" type="Function">
+                    <param id="0" name="Name">&quot;Add&quot;</param>
+                    <param id="1" name="Parameter {n}">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="272000671940421">
+        <event-block sid="284205665025258">
             <conditions>
-                <condition id="17" name="On tap object" sid="248473430561752" type="Touch">
-                    <param id="0" name="Object">botao_concluir</param>
-                </condition>
+                <condition id="0" name="On clicked" sid="648130128724119" type="PapelGain" />
             </conditions>
             <actions>
-                <action id="-10" name="Add to" sid="882526276223209" type="System">
-                    <param id="0" name="Variable">Sujeira_Total</param>
-                    <param id="1" name="Value">Metal_Total+Papel_Total+Plástico_Total+Vidro_Total</param>
+                <action id="0" name="Call function" sid="228691385823081" type="Function">
+                    <param id="0" name="Name">&quot;Add&quot;</param>
+                    <param id="1" name="Parameter {n}">2</param>
                 </action>
-                <action id="-9" name="Set value" sid="461627634565589" type="System">
-                    <param id="0" name="Variable">Metal_Total</param>
-                    <param id="1" name="Value">0</param>
+            </actions>
+        </event-block>
+        <event-block sid="233894670787465">
+            <conditions>
+                <condition id="0" name="On clicked" sid="305742265251474" type="PlasticoGAin" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="725945966464442" type="Function">
+                    <param id="0" name="Name">&quot;Add&quot;</param>
+                    <param id="1" name="Parameter {n}">3</param>
                 </action>
-                <action id="-9" name="Set value" sid="560054472039034" type="System">
-                    <param id="0" name="Variable">Papel_Total</param>
-                    <param id="1" name="Value">0</param>
+            </actions>
+        </event-block>
+        <event-block sid="199125752773498">
+            <conditions>
+                <condition id="0" name="On clicked" sid="290370742324985" type="VidroGain" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="261641659589224" type="Function">
+                    <param id="0" name="Name">&quot;Add&quot;</param>
+                    <param id="1" name="Parameter {n}">4</param>
                 </action>
-                <action id="-9" name="Set value" sid="122559272409252" type="System">
-                    <param id="0" name="Variable">Plástico_Total</param>
-                    <param id="1" name="Value">0</param>
+            </actions>
+        </event-block>
+        <event-block sid="282951025127642">
+            <conditions>
+                <condition id="0" name="On clicked" sid="285375125476282" type="MetalLoss" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="386923513449019" type="Function">
+                    <param id="0" name="Name">&quot;Sub&quot;</param>
+                    <param id="1" name="Parameter {n}">1</param>
                 </action>
-                <action id="-9" name="Set value" sid="355557573890692" type="System">
-                    <param id="0" name="Variable">Vidro_Total</param>
-                    <param id="1" name="Value">0</param>
+            </actions>
+        </event-block>
+        <event-block sid="849022067511788">
+            <conditions>
+                <condition id="0" name="On clicked" sid="794462248312626" type="PapelLoss" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="829601737551756" type="Function">
+                    <param id="0" name="Name">&quot;Sub&quot;</param>
+                    <param id="1" name="Parameter {n}">2</param>
                 </action>
-                <action id="-12" name="Set group active" sid="147505082135764" type="System">
-                    <param id="0" name="Group name">&quot;Coleta&quot;</param>
-                    <param id="1" name="State">1</param>
+            </actions>
+        </event-block>
+        <event-block sid="177077272350171">
+            <conditions>
+                <condition id="0" name="On clicked" sid="707120778858337" type="PlasticoLoss" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="785965496195097" type="Function">
+                    <param id="0" name="Name">&quot;Sub&quot;</param>
+                    <param id="1" name="Parameter {n}">3</param>
                 </action>
-                <action id="-2" name="Go to layout" sid="735596586746239" type="System">
-                    <param id="0" name="Layout">Coleta</param>
+            </actions>
+        </event-block>
+        <event-block sid="341451552925931">
+            <conditions>
+                <condition id="0" name="On clicked" sid="141710854561964" type="VidroLoss" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="314816218583182" type="Function">
+                    <param id="0" name="Name">&quot;Sub&quot;</param>
+                    <param id="1" name="Parameter {n}">4</param>
                 </action>
             </actions>
         </event-block>
@@ -743,57 +785,41 @@
                 <action id="-9" name="Destroy" sid="790807605523499" type="fechar_zoom" />
             </actions>
         </event-block>
-        <event-block sid="289166979485934">
+        <event-block sid="272000671940421">
             <conditions>
-                <condition id="-3" name="On end of layout" sid="369939785096928" type="System" />
+                <condition id="17" name="On tap object" sid="248473430561752" type="Touch">
+                    <param id="0" name="Object">botao_concluir</param>
+                </condition>
             </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="990230557053826">
-                    <conditions>
-                        <condition id="-11" name="For Each" sid="647375069583470" type="System">
-                            <param id="0" name="Object">Reciclaveis</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="404288453740526">
-                            <conditions>
-                                <condition id="-8" name="Is boolean instance variable set" sid="234479091665732" type="Reciclaveis">
-                                    <param id="0" name="Instance variable">NConstruido</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-9" name="Destroy" sid="978342753026956" type="Reciclaveis" />
-                            </actions>
-                        </event-block>
-                        <event-block sid="592107132833802">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="782326117256415" type="System" />
-                                <condition id="-2" name="Compare Y" sid="949410797224544" type="Reciclaveis">
-                                    <param id="0" name="Comparison">1</param>
-                                    <param id="1" name="Y co-ordinate">350</param>
-                                </condition>
-                                <condition id="-14" name="Compare variable" sid="817565926348650" type="System">
-                                    <param id="0" name="Variable">UltimoX</param>
-                                    <param id="1" name="Comparison">3</param>
-                                    <param id="2" name="Value">400</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-3" name="Set position" sid="126739577941912" type="Reciclaveis">
-                                    <param id="0" name="X">UltimoX</param>
-                                    <param id="1" name="Y">370</param>
-                                </action>
-                                <action id="-10" name="Add to" sid="617652605695820" type="System">
-                                    <param id="0" name="Variable">UltimoX</param>
-                                    <param id="1" name="Value">80</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-            </sub-events>
+            <actions>
+                <action id="-10" name="Add to" sid="882526276223209" type="System">
+                    <param id="0" name="Variable">Sujeira_Total</param>
+                    <param id="1" name="Value">Metal_Total+Papel_Total+Plástico_Total+Vidro_Total</param>
+                </action>
+                <action id="-9" name="Set value" sid="461627634565589" type="System">
+                    <param id="0" name="Variable">Metal_Total</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="560054472039034" type="System">
+                    <param id="0" name="Variable">Papel_Total</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="122559272409252" type="System">
+                    <param id="0" name="Variable">Plástico_Total</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="355557573890692" type="System">
+                    <param id="0" name="Variable">Vidro_Total</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="147505082135764" type="System">
+                    <param id="0" name="Group name">&quot;Coleta&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="735596586746239" type="System">
+                    <param id="0" name="Layout">Coleta</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
