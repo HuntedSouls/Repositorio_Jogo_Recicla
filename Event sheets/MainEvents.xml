@@ -5,6 +5,7 @@
     <events>
         <variable comment="determina quando a fase de coleta termina" constant="0" name="FimDaColeta" sid="758048579010423" static="0" type="number">10</variable>
         <variable comment="determina a velocidade que caem os lixinhos" constant="0" name="VelocidadeLixo" sid="338268227728881" static="0" type="number">150</variable>
+        <variable constant="1" name="BARRAYINIT" sid="913393769244665" static="0" type="number">742.6</variable>
         <variable comment="Conta lixo acumulado total" constant="0" name="Sujeira_Total" sid="973658674623222" static="0" type="number">0</variable>
         <variable constant="0" name="Vidro_Total" sid="366798319634850" static="0" type="number">0</variable>
         <variable constant="0" name="Papel_Total" sid="712205068161084" static="0" type="number">0</variable>
@@ -24,6 +25,19 @@
                         <action id="-9" name="Set value" sid="581698154519040" type="System">
                             <param id="0" name="Variable">VelocidadeLixo</param>
                             <param id="1" name="Value">150+Sujeira_Total*2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="174220027204268">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="646210221795301" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="292890260037605" type="Debug">
+                            <param id="0" name="Text">&quot;Sujeira: &quot; &amp;Sujeira_Total</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="513085504434322" type="SujeiraAcumulada">
+                            <param id="0" name="Y">BARRAYINIT-20*floor(Sujeira_Total/3)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -335,16 +349,9 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="335748534553194" type="Lixos" />
-                        <action id="-11" name="Add to" sid="958366438734949" type="SujeiraAcumulada">
-                            <param id="0" name="Instance variable">IncrementoSujeira</param>
+                        <action id="-10" name="Add to" sid="524765970945911" type="System">
+                            <param id="0" name="Variable">Sujeira_Total</param>
                             <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-11" name="Add to" sid="524765970945911" type="Sujeira">
-                            <param id="0" name="Instance variable">SujeiraTotal</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="835176339040083" type="Debug">
-                            <param id="0" name="Text">&quot;Sujeira: &quot; &amp;Sujeira.SujeiraTotal </param>
                         </action>
                     </actions>
                 </event-block>
@@ -406,24 +413,6 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="950572908658805">
-                    <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="436596008902837" type="SujeiraAcumulada">
-                            <param id="0" name="Instance variable">IncrementoSujeira</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">3</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Set Y" sid="195795955288010" type="SujeiraAcumulada">
-                            <param id="0" name="Y">SujeiraAcumulada.Y-20</param>
-                        </action>
-                        <action id="-10" name="Set value" sid="567501458243758" type="SujeiraAcumulada">
-                            <param id="0" name="Instance variable">IncrementoSujeira</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
                 <event-block sid="357953735272544">
                     <conditions>
                         <condition id="-7" name="Compare instance variable" sid="696101651442905" type="ContadorCaçamba">
@@ -448,10 +437,6 @@
                         <action id="-9" name="Set value" sid="647818559773204" type="System">
                             <param id="0" name="Variable">Vidro_Total</param>
                             <param id="1" name="Value">Caçamba_Vidro.ContaVidro</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="263949960807645" type="System">
-                            <param id="0" name="Variable">Sujeira_Total</param>
-                            <param id="1" name="Value">Sujeira.SujeiraTotal</param>
                         </action>
                         <action id="-25" name="Go to layout (by name)" sid="443249902056148" type="System">
                             <param id="0" name="Layout">&quot;Projetos&quot;</param>

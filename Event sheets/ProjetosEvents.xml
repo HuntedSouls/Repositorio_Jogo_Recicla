@@ -5,12 +5,6 @@
     <events>
         <variable comment="ve o último x usado" constant="0" name="UltimoX" sid="769690575547511" static="0" type="number">60</variable>
         <include>MainEvents</include>
-        <event-block sid="159398580876390">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="702745724755858" type="System" />
-            </conditions>
-            <actions />
-        </event-block>
         <event-block sid="152251834927562">
             <conditions>
                 <condition id="-1" name="Every tick" sid="287206882448980" type="System" />
@@ -32,168 +26,6 @@
                     <param id="0" name="Text">&quot;Lixo Acumulado: &quot;&amp;Sujeira_Total</param>
                 </action>
             </actions>
-        </event-block>
-        <event-block sid="385019120742151">
-            <conditions>
-                <condition id="17" name="On tap object" sid="354856556651253" type="Touch">
-                    <param id="0" name="Object">Reciclaveis</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="755699788942003">
-                    <conditions>
-                        <condition id="-8" name="Is boolean instance variable set" sid="472857043552937" type="Reciclaveis">
-                            <param id="0" name="Instance variable">Construido</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Call function" sid="778763438272494" type="Function">
-                            <param id="0" name="Name">&quot;Swap&quot;</param>
-                            <param id="1" name="Parameter {n}">Reciclaveis.De{###}Reciclaveis.Para</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="961754644195622">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="930828607865322" type="System" />
-                        <condition id="-14" name="Compare variable" sid="147888746929571" type="System">
-                            <param id="0" name="Variable">Metal_Total</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">Reciclaveis.CustoMetal</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="359994667707616" type="System">
-                            <param id="0" name="Variable">Papel_Total</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">Reciclaveis.CustoPapel</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="253249095420094" type="System">
-                            <param id="0" name="Variable">Plástico_Total</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">Reciclaveis.CustoPlastico</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="938631393007430" type="System">
-                            <param id="0" name="Variable">Vidro_Total</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">Reciclaveis.CustoVidro</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-11" name="Subtract from" sid="389175353403675" type="System">
-                            <param id="0" name="Variable">Metal_Total</param>
-                            <param id="1" name="Value">Reciclaveis.CustoMetal</param>
-                        </action>
-                        <action id="-11" name="Subtract from" sid="574809336848518" type="System">
-                            <param id="0" name="Variable">Papel_Total</param>
-                            <param id="1" name="Value">Reciclaveis.CustoPapel</param>
-                        </action>
-                        <action id="-11" name="Subtract from" sid="345151900015204" type="System">
-                            <param id="0" name="Variable">Plástico_Total</param>
-                            <param id="1" name="Value">Reciclaveis.CustoPlastico</param>
-                        </action>
-                        <action id="-11" name="Subtract from" sid="890814664491008" type="System">
-                            <param id="0" name="Variable">Vidro_Total</param>
-                            <param id="1" name="Value">Reciclaveis.CustoVidro</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="859525192982502" type="Reciclaveis">
-                            <param id="0" name="Instance variable">Construido</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="972446686119222" type="Reciclaveis">
-                            <param id="0" name="Instance variable">NConstruido</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-16" name="Set opacity" sid="802795934319818" type="Reciclaveis">
-                            <param id="0" name="Opacity">50</param>
-                        </action>
-                        <action id="0" name="Play" sid="334743214286238" type="Audio">
-                            <param id="0" name="Audio file">Plimplim</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="855905434291037">
-            <conditions>
-                <condition id="17" name="On tap object" sid="136492621856974" type="Touch">
-                    <param id="0" name="Object">Projetos</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="304264838706833">
-                    <conditions>
-                        <condition id="-8" name="Is boolean instance variable set" sid="204443960755751" type="Projetos">
-                            <param id="0" name="Instance variable">Construido</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Call function" sid="960081877383788" type="Function">
-                            <param id="0" name="Name">&quot;Swap12&quot;</param>
-                            <param id="1" name="Parameter {n}">Projetos.De{###}Projetos.Para</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="635830908143186">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="235889987894955" type="System" />
-                        <condition id="-14" name="Compare variable" sid="546103522373516" type="System">
-                            <param id="0" name="Variable">Metal_Total</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">Projetos.CustoMetal</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="161668937049199" type="System">
-                            <param id="0" name="Variable">Papel_Total</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">Projetos.CustoPapel</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="631926895007876" type="System">
-                            <param id="0" name="Variable">Plástico_Total</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">Projetos.CustoPlastico</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="944887269119481" type="System">
-                            <param id="0" name="Variable">Vidro_Total</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">Projetos.CustoVidro</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-11" name="Subtract from" sid="518974858397458" type="System">
-                            <param id="0" name="Variable">Metal_Total</param>
-                            <param id="1" name="Value">Projetos.CustoMetal</param>
-                        </action>
-                        <action id="-11" name="Subtract from" sid="502200769241488" type="System">
-                            <param id="0" name="Variable">Papel_Total</param>
-                            <param id="1" name="Value">Projetos.CustoPapel</param>
-                        </action>
-                        <action id="-11" name="Subtract from" sid="527428940700411" type="System">
-                            <param id="0" name="Variable">Plástico_Total</param>
-                            <param id="1" name="Value">Projetos.CustoPlastico</param>
-                        </action>
-                        <action id="-11" name="Subtract from" sid="457011607390057" type="System">
-                            <param id="0" name="Variable">Vidro_Total</param>
-                            <param id="1" name="Value">Projetos.CustoVidro</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="249027955490170" type="Projetos">
-                            <param id="0" name="Instance variable">Construido</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-16" name="Set opacity" sid="753898753747315" type="Projetos">
-                            <param id="0" name="Opacity">50</param>
-                        </action>
-                        <action id="0" name="Play" sid="589611672067168" type="Audio">
-                            <param id="0" name="Audio file">Plimplim</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="284891803784014">
             <conditions>
@@ -651,140 +483,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="206631784121100">
-            <conditions>
-                <condition id="16" name="On hold over object" sid="272479463591671" type="Touch">
-                    <param id="0" name="Object">Projetos</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-3" name="Create object" sid="308963793518033" type="System">
-                    <param id="0" name="Object to create">TiledBackground</param>
-                    <param id="1" name="Layer">3</param>
-                    <param id="2" name="X">0</param>
-                    <param id="3" name="Y">0</param>
-                </action>
-                <action id="-16" name="Set opacity" sid="658723447574832" type="TiledBackground">
-                    <param id="0" name="Opacity">75</param>
-                </action>
-                <action id="-3" name="Create object" sid="910612451794048" type="System">
-                    <param id="0" name="Object to create">fechar_zoom</param>
-                    <param id="1" name="Layer">3</param>
-                    <param id="2" name="X">310</param>
-                    <param id="3" name="Y">50</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="674877606023594">
-                    <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="788587693111589" type="Projetos">
-                            <param id="0" name="Instance variable">Codigo</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-3" name="Create object" sid="318306580400809" type="System">
-                            <param id="0" name="Object to create">projeto_1_zoom</param>
-                            <param id="1" name="Layer">3</param>
-                            <param id="2" name="X">180</param>
-                            <param id="3" name="Y">240</param>
-                        </action>
-                        <action id="-29" name="Move to object" sid="545131821386150" type="projeto_1_zoom">
-                            <param id="0" name="Where">1</param>
-                            <param id="1" name="Object">fechar_zoom</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="199088273046472">
-                    <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="751279524099619" type="Projetos">
-                            <param id="0" name="Instance variable">Codigo</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-3" name="Create object" sid="586484149622570" type="System">
-                            <param id="0" name="Object to create">projeto_2_zoom</param>
-                            <param id="1" name="Layer">3</param>
-                            <param id="2" name="X">180</param>
-                            <param id="3" name="Y">240</param>
-                        </action>
-                        <action id="-29" name="Move to object" sid="492797153023382" type="projeto_2_zoom">
-                            <param id="0" name="Where">1</param>
-                            <param id="1" name="Object">fechar_zoom</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="679030454980660">
-                    <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="479746093096470" type="Projetos">
-                            <param id="0" name="Instance variable">Codigo</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">3</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-3" name="Create object" sid="932016069719335" type="System">
-                            <param id="0" name="Object to create">projeto_3_zoom</param>
-                            <param id="1" name="Layer">3</param>
-                            <param id="2" name="X">180</param>
-                            <param id="3" name="Y">240</param>
-                        </action>
-                        <action id="-29" name="Move to object" sid="200577259769517" type="projeto_3_zoom">
-                            <param id="0" name="Where">1</param>
-                            <param id="1" name="Object">fechar_zoom</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="311674826889019">
-                    <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="970178170810482" type="Projetos">
-                            <param id="0" name="Instance variable">Codigo</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-3" name="Create object" sid="376097013680609" type="System">
-                            <param id="0" name="Object to create">projeto_4_zoom</param>
-                            <param id="1" name="Layer">3</param>
-                            <param id="2" name="X">180</param>
-                            <param id="3" name="Y">240</param>
-                        </action>
-                        <action id="-29" name="Move to object" sid="367480803161976" type="projeto_4_zoom">
-                            <param id="0" name="Where">1</param>
-                            <param id="1" name="Object">fechar_zoom</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="481039157027819">
-            <conditions>
-                <condition id="17" name="On tap object" sid="584466261663748" type="Touch">
-                    <param id="0" name="Object">fechar_zoom</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="655957922777189" type="TiledBackground" />
-                <action id="-9" name="Destroy" sid="828404713316653" type="Projetos_Zoom" />
-                <action id="-9" name="Destroy" sid="624650685167418" type="fechar_zoom" />
-            </actions>
-        </event-block>
-        <event-block sid="215322035714062">
-            <conditions>
-                <condition id="17" name="On tap object" sid="277044535296642" type="Touch">
-                    <param id="0" name="Object">fechar_zoom</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="940940599883130" type="TiledBackground" />
-                <action id="-9" name="Destroy" sid="755638342730044" type="Projetos_Zoom" />
-                <action id="-9" name="Destroy" sid="790807605523499" type="fechar_zoom" />
-            </actions>
-        </event-block>
         <event-block sid="272000671940421">
             <conditions>
                 <condition id="17" name="On tap object" sid="248473430561752" type="Touch">
@@ -795,6 +493,9 @@
                 <action id="-10" name="Add to" sid="882526276223209" type="System">
                     <param id="0" name="Variable">Sujeira_Total</param>
                     <param id="1" name="Value">Metal_Total+Papel_Total+Plástico_Total+Vidro_Total</param>
+                </action>
+                <action id="-16" name="Wait" sid="285338492762579" type="System">
+                    <param id="0" name="Seconds">1.0</param>
                 </action>
                 <action id="-9" name="Set value" sid="461627634565589" type="System">
                     <param id="0" name="Variable">Metal_Total</param>
@@ -811,6 +512,9 @@
                 <action id="-9" name="Set value" sid="355557573890692" type="System">
                     <param id="0" name="Variable">Vidro_Total</param>
                     <param id="1" name="Value">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="434220634777869" type="System">
+                    <param id="0" name="Seconds">1.0</param>
                 </action>
                 <action id="-12" name="Set group active" sid="147505082135764" type="System">
                     <param id="0" name="Group name">&quot;Coleta&quot;</param>
